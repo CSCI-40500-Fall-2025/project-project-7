@@ -10,7 +10,7 @@ export default function HomePage() {
   const [activeSubject, setActiveSubject] = useState<Subject>("biology")
 
   const subjects = [
-    { id: "biology" as const, name: "bruh", base: "bg-green-500 text-white", hover: "hover:bg-green-500", active: "active:bg-green-500" },
+    { id: "biology" as const, name: "Biology", base: "bg-green-500 text-white", hover: "hover:bg-green-500", active: "active:bg-green-500" },
     { id: "chemistry" as const, name: "Chemistry", base: "bg-blue-500 text-white", hover: "hover:bg-blue-500", active: "active:bg-blue-500" },
     { id: "math" as const, name: "Math", base: "bg-purple-500 text-white", hover: "hover:bg-purple-500",  active: "active:bg-purple-500" },
   ]

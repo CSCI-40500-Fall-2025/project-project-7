@@ -1,6 +1,12 @@
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
+import { Fetch } from "@/geminiAPI/geminiFetch"
+
+/*
+  Added an onclick attribute to the Card component. Each card component needs a subject
+  that will be sent to the gemini api.
+*/
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (
@@ -11,6 +17,7 @@ function Card({ className, ...props }: React.ComponentProps<"div">) {
         className
       )}
       {...props}
+      onClick={() => Fetch('The Civil War era (1844 - 1877)')}
     />
   )
 }
