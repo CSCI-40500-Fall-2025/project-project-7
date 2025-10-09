@@ -1,0 +1,29 @@
+{
+    "AP/College Chemistry": [
+        "Atomic structure and properties",
+        "Molecular and ionic compound structure and properties",
+        "Intermolecular forces and properties",
+        "Chemical reactions",
+        "Kinetics",
+        "Thermodynamics",
+        "Equailibrium",
+        "Acids and bases",
+        "Applications of thermodynamics"
+    ],
+    "AP/College Biology": [
+        "Chemistry of life",
+        "Cell structure and function",
+        "Cellular energetics",
+        "Cell communication and cell cycle",
+        "Heredity",
+        "Gene expression and regulation",
+        "Natural selection",
+        "Ecology"
+    ],
+    "Physics": [], 
+    "AP/College Physics 1": [],
+    "AP/College Physics 2": [],
+    "Organic Chemistry": [],
+    "AP/College Environmental Science": [],
+    "Chemistry": []
+}

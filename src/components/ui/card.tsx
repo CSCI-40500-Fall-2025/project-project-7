@@ -1,7 +1,7 @@
 import * as React from "react"
 
+import mathTopics from "@/topics/math.json"
 import { cn } from "@/lib/utils"
-import { Fetch } from "@/geminiAPI/geminiFetch"
 
 /*
   Added an onclick attribute to the Card component. Each card component needs a subject
@@ -17,7 +17,6 @@ function Card({ className, ...props }: React.ComponentProps<"div">) {
         className
       )}
       {...props}
-      onClick={() => Fetch('The Civil War era (1844 - 1877)')}
     />
   )
 }

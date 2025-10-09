@@ -8,15 +8,14 @@ import { GoogleGenAI } from "@google/genai";
     GEMINI_API_KEY=[API_KEY]
 */
 const ai = new GoogleGenAI({
-    // apiKey: process.env.GEMINI_API_KEY,
-    apiKey: "AIzaSyAB6DlVUAhzG2plJoW9tNQoalqqiDVjujE"
+    apiKey: process.env.GEMINI_API_KEY
 });
 
-export async function Fetch(subject: string) {
+export async function Fetch(course: string, topic: string) {
 
     const response = await ai.models.generateContent({
         model: "gemini-2.5-flash",
-        contents: `Generate 4 question on ${subject}. It should be in multiple choice format.`
+        contents: `Generate 4 question on ${topic} from ${course}. It should be in multiple choice format.`
     });
 
     console.log(response.text)
