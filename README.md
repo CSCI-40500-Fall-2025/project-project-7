@@ -15,3 +15,6 @@ https://test-nine-lovat-83.vercel.app/
 2. Study Up will most likely have 4 layers - user interface, authentication and server, application functionality, and database management
 
 3. The user interface will be a web browser. Authentication and server will handle user login in information when they first load into the website. The server will manage the website to ensure that it can handle multiple users being on at the same time. The application functionality will ensure that Study Up is working the way it is supposed to. There should be quizzes when the user wants to test themselves. Courses should appear, and the webpage should be as responsive as possible. The database will use a relation SQL database to store user information such as emails, passwords, usernames, and progress.
+
+<img width="1679" height="994" alt="image" src="https://github.com/user-attachments/assets/92d8dd81-8599-475f-9aeb-d949d83277c9" />
+
