@@ -1,5 +1,6 @@
 
 "use client"
+
 import { useSearchParams } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { Fetch } from "@/geminiAPI/geminiFetch";
@@ -37,7 +38,7 @@ export default function Course() {
                         <Card 
                             key={index}
                             className="aspect-square flex items-center justify-center p-4 hover:bg-accent transition-colors cursor-pointer"
-                            onClick={() => Fetch(course!, topic)}
+                            // onClick={() => Fetch(course!, topic)}
                         >
                             {topic}
                         </Card>
