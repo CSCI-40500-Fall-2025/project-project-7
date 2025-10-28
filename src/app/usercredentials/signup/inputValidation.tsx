@@ -1,11 +1,13 @@
 
 
+import validator from "validator";
+
 
 function TestEmail(email: string) {
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,100}$/
 
-    return emailRegex.test(email);
+    return validator.isEmail(email);
 }
+
 
 function TestPassword(password: string) {
     /**
@@ -15,9 +17,15 @@ function TestPassword(password: string) {
      * -one special character
      * -length must be between [8-14]
      */
-    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,14}$/;
+    const isValidFormat =  validator.isStrongPassword(password, {
+        minLength: 8,
+        minLowercase: 1,
+        minUppercase: 1,
+        minNumbers: 1,
+        minSymbols: 1
+    })
 
-    return passwordRegex.test(password);
+    return isValidFormat && password.length <= 14
 }
 
 export function TestInput(email: string, password: string) {
