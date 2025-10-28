@@ -1,7 +1,41 @@
 
 "use client"
 
-import Link from "next/link"
+import Link from "next/link";
+
+import LogIn from "../usercredentials/login/page";
+import SignUp from "../usercredentials/signup/page";
+
+export function NavigationBar() {
+    return (
+        <div className="flex flex-row items-center justify-between px-5 py-4 shadow-md sticky top-0 max-h-20 z-10 bg-white">
+            <div>
+                <Link href="/">
+                    <img src="/images/Header/StudyUpLogo.png" className="h-24 w-auto cursor-pointer"/>
+                </Link>
+            </div>
+
+            <div className="flex flex-col space-x-8 md:flex-row">
+                <h2 className="font-bold hover:underline cursor-pointer">About</h2>
+                <h2 className="font-bold hover:underline cursor-pointer">Courses</h2>
+                <h2 className="font-bold hover:underline cursor-pointer">Resources</h2>
+                <h2 className="font-bold hover:underline cursor-pointer">Questions</h2>
+            </div>
+
+            <div className="flex flex-row space-x-4">
+                <button className="border rounded-md bg-blue-400 text-white hover:bg-blue-500 cursor-pointer 
+                px-4 py-2 font-bold"
+                >
+                    <Link href="./usercredentials/login">Log in</Link>
+                </button>
+                <button className="border rounded-md bg-blue-400 text-white hover:bg-blue-500 cursor-pointer 
+                px-4 py-2 font-bold">
+                    <Link href="./usercredentials/signup">Sign Up</Link>
+                </button>
+            </div>
+        </div>
+    );
+}
 
 export function Banner() {
     return (
@@ -21,32 +55,9 @@ export function Banner() {
 
 export default function PageHeader() {
     return (
-        <>
-            <div className="flex flex-row items-center justify-between px-5 py-4 shadow-md sticky top-0 max-h-20 z-10 bg-white">
-                <div>
-                    <img src="./images/Header/StudyUpLogo.png" className="h-24 w-auto"/>
-                </div>
-
-                <div className="flex flex-col space-x-8 md:flex-row">
-                    <h2 className="font-bold hover:underline cursor-pointer">About</h2>
-                    <h2 className="font-bold hover:underline cursor-pointer">Courses</h2>
-                    <h2 className="font-bold hover:underline cursor-pointer">Resources</h2>
-                    <h2 className="font-bold hover:underline cursor-pointer">Questions</h2>
-                </div>
-
-                <div className="flex flex-row space-x-4">
-                    <button className="border rounded-md bg-blue-400 text-white hover:bg-blue-500 cursor-pointer 
-                    px-4 py-2 font-bold"
-                    >
-                        <Link href="/lessonpage">Log in</Link>
-                    </button>
-                    <button className="border rounded-md bg-blue-400 text-white hover:bg-blue-500 cursor-pointer 
-                    px-4 py-2 font-bold">
-                        <Link href="/lessonpage">Sign Up</Link>
-                    </button>
-                </div>
-            </div>
+        <div>
+            <NavigationBar/>
             <Banner/>
-        </>
+        </div>
     );
 }
