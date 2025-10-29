@@ -1,3 +1,4 @@
+[![Tests](https://github.com/CSCI-40500-Fall-2025/project-project-7/actions/workflows/node.js.yml/badge.svg)](https://github.com/CSCI-40500-Fall-2025/project-project-7/actions/workflows/node.js.yml)
 # Study Up
 
 ## Product Vision
