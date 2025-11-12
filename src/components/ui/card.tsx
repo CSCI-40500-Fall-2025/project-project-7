@@ -3,10 +3,7 @@ import * as React from "react"
 import mathTopics from "@/topics/math.json"
 import { cn } from "@/lib/utils"
 
-/*
-  Added an onclick attribute to the Card component. Each card component needs a subject
-  that will be sent to the gemini api.
-*/
+
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (

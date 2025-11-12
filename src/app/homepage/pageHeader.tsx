@@ -8,7 +8,7 @@ import SignUp from "../usercredentials/signup/page";
 
 export function NavigationBar() {
     return (
-        <div className="flex flex-row items-center justify-between px-5 py-4 shadow-md sticky top-0 max-h-20 z-10 bg-white">
+        <div className="flex flex-row items-center justify-between px-5 py-4 shadow-md max-h-20 z-10 bg-white">
             <div>
                 <Link href="/">
                     <img src="/images/Header/StudyUpLogo.png" className="h-24 w-auto cursor-pointer"/>
@@ -17,7 +17,11 @@ export function NavigationBar() {
 
             <div className="flex flex-col space-x-8 md:flex-row">
                 <h2 className="font-bold hover:underline cursor-pointer">About</h2>
-                <h2 className="font-bold hover:underline cursor-pointer">Courses</h2>
+
+                <Link href="/coursepage">
+                    <h2 className="font-bold hover:underline cursor-pointer">Courses</h2>
+                </Link>
+                
                 <h2 className="font-bold hover:underline cursor-pointer">Resources</h2>
                 <h2 className="font-bold hover:underline cursor-pointer">Questions</h2>
             </div>
@@ -26,11 +30,11 @@ export function NavigationBar() {
                 <button className="border rounded-md bg-blue-400 text-white hover:bg-blue-500 cursor-pointer 
                 px-4 py-2 font-bold"
                 >
-                    <Link href="./usercredentials/login">Log in</Link>
+                    <Link href="/usercredentials/login">Log in</Link>
                 </button>
                 <button className="border rounded-md bg-blue-400 text-white hover:bg-blue-500 cursor-pointer 
                 px-4 py-2 font-bold">
-                    <Link href="./usercredentials/signup">Sign Up</Link>
+                    <Link href="/usercredentials/signup">Sign Up</Link>
                 </button>
             </div>
         </div>
