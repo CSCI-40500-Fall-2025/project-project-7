@@ -47,7 +47,7 @@ function Form() {
         password: ""
     });
 
-    function handleInputChange(e: any) {
+    function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
 
         setData(prevData => ({
             ...prevData,
@@ -55,7 +55,7 @@ function Form() {
         }));
     }
 
-    function handleSubmit(e: any) {
+    function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
 
         const validInput = TestInput(data.email, data.password);
@@ -79,7 +79,7 @@ function Form() {
     }, [data])
 
     return (
-        <form className="flex flex-col space-y-5 w-full">
+        <form className="flex flex-col space-y-5 w-full" onClick={handleSubmit}>
             <div>
                 <label className="block font-medium mb-3">Email</label>
                 <input 
@@ -126,7 +126,6 @@ function Form() {
                 className={`border-1 rounded-md  text-white font-bold py-2 w-full ${
                     isInfoFilled ? "cursor-pointer bg-blue-500" : "bg-gray-400 cursor-not-allowed"
                     }`}
-                onClick={handleSubmit}
                 disabled={!isInfoFilled}
                 >
                 Sign up

@@ -10,20 +10,20 @@ function LogInOptions() {
     return (
         <div className="space-y-3 w-[80%]">
             <button className="flex justify-center items-center border-1 border-black rounded-md w-full py-2 px-4 cursor-pointer hover:border-blue-500">
-                <img src="/images/credentials/googleLogo.png" className="h-7 mr-2"/>
+                <img src="/images/credentials/googleLogo.png" alt="google logo" className="h-7 mr-2"/>
                 <p className="font-medium">Continue with Google</p>
             </button>
 
             <div className="flex flex-row justify-between">
                 <button className="items-center border-1 border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
-                    <img src="/images/credentials/microsoftLogo.png" className="h-7"/>
+                    <img src="/images/credentials/microsoftLogo.png" alt="microsoft logo"className="h-7"/>
                 </button>
                 <button className="items-center border-1 border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
-                    <img src="/images/credentials/appleLogo.png" className="h-7"/>
+                    <img src="/images/credentials/appleLogo.png" alt="apple logo" className="h-7"/>
                 </button>
 
                 <button className="items-center border-1 border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
-                    <img src="/images/credentials/facebookLogo.png" className="h-7"/>
+                    <img src="/images/credentials/facebookLogo.png" alt="facebook logo"className="h-7"/>
                 </button>
             </div>
         </div>
@@ -38,7 +38,7 @@ function Form() {
         password: ""
     });
 
-    function handleInputChange(e: any) {
+    function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
 
         setData(prevData => ({
             ...prevData,
