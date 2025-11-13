@@ -22,26 +22,12 @@ jobs:
         with:
           node-version: 20
       
-      - name: installing necessary dependencies
-        run: npm ci
-      
-      - name: building the app
-        run: npm run build
-
-
-      - name: Debug Vercel secrets
-        run: |
-          echo "Vercel Token: ${{ secrets.VERCEL_TOKEN }}"
-          echo "Vercel Org ID: ${{ secrets.VERCEL_ORG_ID }}"
-          echo "Vercel Project ID: ${{ secrets.VERCEL_PROJECT_ID }}"
-
-
-      - name: deploy the project on Vercel
-        uses: amondnet/vercel-action@v20
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-args: "--yes"
-          working-directory: . 
+      - name: Deploying to Vercel
+        run: npx vercel --token ${{ secrets.VERCEL_TOKEN }} --prod --confirm
+        env: 
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_USER_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    
       
       
 
