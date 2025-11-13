@@ -19,19 +19,19 @@ const mathtopics = mathTopics as topicDic
 
 
 export default function Course() {
-    const searchParams = useSearchParams();
-    const course = searchParams.get('courseName');
-    const subject = searchParams.get('subject');
+    // const searchParams = useSearchParams();
+    // const course = searchParams.get('courseName');
+    // const subject = searchParams.get('subject');
 
-    let topicArr: string[];
-    if (subject === "science") topicArr = sciencetopics[course!];
-    else if (subject === "history") topicArr = historytopics[course!];
-    else topicArr = mathtopics[course!];
+    // let topicArr: string[];
+    // if (subject === "science") topicArr = sciencetopics[course!];
+    // else if (subject === "history") topicArr = historytopics[course!];
+    // else topicArr = mathtopics[course!];
 
     
     return (
         <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-fold mb-6 text-center capitalize">{course}</h2>
+            {/* <h2 className="text-3xl font-fold mb-6 text-center capitalize">{course}</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {
                     topicArr.map((topic, index) => (
@@ -44,7 +44,7 @@ export default function Course() {
                         </Card>
                     ))
                 }
-            </div>
+            </div> */}
         </div>
 
     );
