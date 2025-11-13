@@ -7,7 +7,7 @@ Similar to Duolingo, users will have to complete nodes to learn and master a sub
 
 So far, there are only three subjects that the user can choose - Math, Science, and History. Once the user has clicked on the subject of their choice, they will be presented with a few courses that they can learn from the choosen subject. Once they picked a course, they will then see a topics that they can learn from that course.
 Prototype features very basic subject selection.
-https://test-nine-lovat-83.vercel.app/
+[https://test-nine-lovat-83.vercel.app/](https://project-project-7-pi6gic2u0-kelvins-projects-2894d6c6.vercel.app/)
 
 
 ## Layered Software Architecture
