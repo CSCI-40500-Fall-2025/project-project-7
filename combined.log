@@ -1,0 +1,41 @@
+{"level":"error","message":"There is an error trying to fetch the course structure from the json files","service":"user-service","timestamp":"2025-11-19T04:45:04.223Z"}
+{"level":"debug","message":"Debugging the function","service":"user-service","timestamp":"2025-11-19T04:45:04.224Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:45:16.029Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:45:16.031Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:45:16.031Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:45:31.238Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:45:31.239Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:45:31.239Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:45:52.721Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:45:52.721Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:45:52.721Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:28.397Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:28.428Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:51:28.456Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:29.780Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:29.810Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:51:29.850Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:32.182Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:32.215Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:51:32.246Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:35.591Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:35.669Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:42.647Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:42.679Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:51:42.706Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:44.935Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:44.972Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:51:45.000Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:47.263Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:47.296Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:51:47.322Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:49.014Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:49.042Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:51:49.069Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:51:50.790Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:51:50.818Z"}
+{"level":"warn","message":"The user password did not meet the requirements","service":"user-service","timestamp":"2025-11-19T04:51:50.864Z"}
+{"level":"error","message":"There is an error trying to fetch the course structure from the json files","service":"user-service","timestamp":"2025-11-19T04:51:57.535Z"}
+{"level":"debug","message":"Debugging the function","service":"user-service","timestamp":"2025-11-19T04:51:57.535Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:52:08.255Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:52:08.326Z"}

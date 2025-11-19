@@ -2,7 +2,6 @@
 "use client"
 
 import { CourseUnitStructure } from "./page"
-
 import { useState } from "react"
 
 

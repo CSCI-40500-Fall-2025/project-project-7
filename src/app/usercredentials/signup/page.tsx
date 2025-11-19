@@ -55,7 +55,7 @@ function Form() {
         }));
     }
 
-    function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
 
         const validInput = TestInput(data.email, data.password);
@@ -79,7 +79,7 @@ function Form() {
     }, [data])
 
     return (
-        <form className="flex flex-col space-y-5 w-full" onClick={handleSubmit}>
+        <form className="flex flex-col space-y-5 w-full" onSubmit={handleSubmit}>
             <div>
                 <label className="block font-medium mb-3">Email</label>
                 <input 

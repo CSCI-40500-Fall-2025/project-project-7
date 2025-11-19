@@ -4,7 +4,11 @@
 import { NavigationBar } from "@/app/homepage/pageHeader";
 import { useState, useEffect } from "react";
 
-
+/**
+ * Creates a container displaying all the login options for the user
+ * 
+ * @returns JSX element containing all the login options available 
+ */
 function LogInOptions() {
     
     return (
@@ -103,6 +107,7 @@ function Form() {
 }
 
 function LogInForm() {
+
     return (
         <div className="bg-gray-100 flex flex-col justify-center items-center min-h-screen">
             <div className="flex flex-col items-center justify-center bg-white shadow-md rounded-xl p-8 min-w-md">
