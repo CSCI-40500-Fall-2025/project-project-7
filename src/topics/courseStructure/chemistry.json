@@ -1,0 +1,29 @@
+{
+    "Unit 1": {
+        "Unit Title": "Atoms, isotopes, and ions",
+        "Topics": [
+            "Atomic Structure",
+            "Isotopes",
+            "Ions"
+        ]
+    },
+    "Unit 2": {
+        "Unit Title": "Atomic models and periodicity",
+        "Topics": [
+            "The Bohr model and atomic spectra",
+            "Lewis diagrams",
+            "The quantum model",
+            "The periodic table",
+            "Peridic trends"
+        ]
+    },
+    "Unit 3": {
+        "Unit Title": "Chemical bonding",
+        "Topics": [
+            "Ionic bonds",
+            "Ionic nomenclature",
+            "Covalent bonds",
+            "Metallic bonds"
+        ]
+    }
+}

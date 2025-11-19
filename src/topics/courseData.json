@@ -4,56 +4,56 @@
         "id": "world_history",
         "name": "World History",
         "subject": "History",
-        "image": "...",
+        "image": "/images/Course/History/worldHistory.png",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
         "id": "ap_college_us_history",
         "name": "AP/College US History",
         "subject": "History",
-        "image": "...",
+        "image": "/images/Course/History/apush.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
         "id": "us_history",
         "name": "US History",
         "subject": "History",
-        "image": "...",
+        "image": "/images/Course/History/us.png",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
         "id": "us_government_and_politics",
         "name": "US Government and Politics",
         "subject": "History",
-        "image": "...",
+        "image": "/images/Course/History/usGov&Politics.png",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
         "id": "art_history",
         "name": "Art History",
         "subject": "History",
-        "image": "...",
+        "image": "/images/Course/History/artHistory.png",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
         "id": "ap_college_art_history",
         "name": "AP/College Art History",
         "subject": "History",
-        "image": "...",
+        "image": "/images/Course/History/apArtHistory.png",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
         "id": "ap_college_world_history",
         "name": "AP/College World History",
         "subject": "History",
-        "image": "...",
+        "image": "/images/Course/History/apWorldHistory.png",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
         "id": "world_history_project_origins_to_the_present",
         "name": "World History Project - Origins to the Present",
         "subject": "History",
-        "image": "...",
+        "image": "/images/Course/History/worldHistoryProject.png",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
@@ -116,7 +116,7 @@
         "id": "ap_college_chemistry",
         "name": "AP/College Chemistry",
         "subject": "Science",
-        "image": "/images/Course/apChemistry.jpg",
+        "image": "/images/Course/Science/apChemistry.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sunt architecto quod facere porro in nihil eligendi voluptates, consectetur ullam, nam quaerat repellendus iste repudiandae molestiae asperiores tempora ex culpa."
     },
     {
