@@ -3,9 +3,11 @@
 "use client"
 
 import { NavigationBar } from "@/app/homepage/pageHeader";
+import { accountCreationAttempt } from "@/app/api/winston/logger";
+import { TestInput } from "./inputValidation";
+
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-import { TestInput } from "./inputValidation";
 
 
 function LogInOptions() {
@@ -56,6 +58,8 @@ function Form() {
     }
 
     async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+        console.log("warn: account creation attempt");
+        accountCreationAttempt();
         e.preventDefault();
 
         const validInput = TestInput(data.email, data.password);

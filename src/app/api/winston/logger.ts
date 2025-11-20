@@ -5,7 +5,7 @@ import logger from "@/lib/logger";
 
 
 export async function accountCreationAttempt() {
-    logger.info("The user is creating an account");
+    logger.warn("The user is creating an account");
 }
 
 export async function emailAttempt() {
@@ -29,5 +29,5 @@ export async function loadCourseStructure() {
 }
 
 export async function findingError() {
-    logger.debug("Debugging the function");
+    logger.debug("Debugging the function in login");
 }

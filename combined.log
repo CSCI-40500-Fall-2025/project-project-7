@@ -39,3 +39,5 @@
 {"level":"debug","message":"Debugging the function","service":"user-service","timestamp":"2025-11-19T04:51:57.535Z"}
 {"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-19T04:52:08.255Z"}
 {"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-19T04:52:08.326Z"}
+{"level":"info","message":"The user is creating an account","service":"user-service","timestamp":"2025-11-20T00:07:50.421Z"}
+{"level":"verbose","message":"Checking the user inputed password","service":"user-service","timestamp":"2025-11-20T00:07:50.604Z"}

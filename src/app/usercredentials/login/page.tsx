@@ -2,7 +2,9 @@
 "use client"
 
 import { NavigationBar } from "@/app/homepage/pageHeader";
+import { findingError } from "@/app/api/winston/logger";
 import { useState, useEffect } from "react";
+import { isIn } from "validator";
 
 /**
  * Creates a container displaying all the login options for the user
@@ -41,6 +43,12 @@ function Form() {
         email: "",
         password: ""
     });
+
+    function handleLog() {
+        if (isInfoFilled)
+            console.log("debug: Finding error log");
+            findingError() // temporary log function
+    }
 
     function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
 
@@ -99,6 +107,7 @@ function Form() {
                     isInfoFilled ? "cursor-pointer bg-blue-500" : "bg-gray-400 cursor-not-allowed"
                     }`}
                 disabled={!isInfoFilled}
+                onClick={handleLog}
                 >
                 Log in
             </button>

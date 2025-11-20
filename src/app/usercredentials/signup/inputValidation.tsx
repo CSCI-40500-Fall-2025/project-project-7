@@ -1,14 +1,16 @@
 
 
 import validator from "validator";
-import { accountCreationAttempt, emailAttempt, passwordAttempt, logSignUpError, checkingPassword} from "@/app/api/winston/logger";
+import { emailAttempt, passwordAttempt, logSignUpError, checkingPassword} from "@/app/api/winston/logger";
 import { log } from "console";
 
 function logEmail(emailTest: boolean) {
+    console.log("warn: email attempt log");
     emailAttempt();
 }
 
 function logPassword(passwordTest: boolean) {
+    console.log("warn: password attempt log");
     passwordAttempt();
 }
 
@@ -21,6 +23,7 @@ function TestEmail(email: string) {
 
 
 function TestPassword(password: string) {
+    console.log("verbose: checking password");
     checkingPassword();
     /**
      * Password must contain:
@@ -44,14 +47,15 @@ function TestPassword(password: string) {
 }
 
 export function TestInput(email: string, password: string) {
-    accountCreationAttempt(); //log user is creating account
-
     const validInputs = {
         email: TestEmail(email),
         password: TestPassword(password)
     }
 
-    if (!validInputs.email && !validInputs.password) logSignUpError(); // log there is an error for account creation
+    if (validInputs.email === false && validInputs.password === false) {
+        console.log("warn: logSignUpError");
+        logSignUpError(); // log there is an error for account creation
+    }
 
     return validInputs;
 }

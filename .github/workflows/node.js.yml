@@ -22,6 +22,7 @@ jobs:
         node-version: [18.x, 20.x]
     env:
       CI: true
+      LOG_LEVEL: silly
 
     steps:
       - uses: actions/checkout@v4

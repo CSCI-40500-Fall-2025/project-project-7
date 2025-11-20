@@ -1,39 +1,40 @@
 
-
+import * as Sentry from "@sentry/node";
 import winston from "winston";
 
+Sentry.init({
+  dsn: process.env.SENTRY_DSN,
+  tracesSampleRate: 1.0,
+});
+
+
+const SentryTransport = new winston.transports.Console({
+  log(info, sentryCall) {
+    const { level, message, ...meta } = info;
+
+    switch (level) {
+      case "error":
+        Sentry.captureException(new Error(message), { extra: meta });
+        break;
+      default:
+        Sentry.captureMessage(message, { level });
+    }
+
+    sentryCall();
+  },
+});
+
 const logger = winston.createLogger({
-  level: process.env.NODE_ENV === "production" ? "info" : "silly",
-  format: winston.format.combine(
-    winston.format.timestamp(),
-    winston.format.json()
-  ),
-  defaultMeta: { service: 'user-service' },
+  level: process.env.LOG_LEVEL || "sily",
+  format: winston.format.combine(winston.format.timestamp(), winston.format.json()),
   transports: [
     new winston.transports.Console(),
-    //
-    // - Write all logs with importance level of `error` or higher to `error.log`
-    //   (i.e., error, fatal, but not other levels)
-    //
-    new winston.transports.File({ filename: 'error.log', level: 'error' }),
-    //
-    // - Write all logs with importance level of `info` or higher to `combined.log`
-    //   (i.e., fatal, error, warn, and info, but not trace)
-    //
-    new winston.transports.File({ filename: 'combined.log' }),
+    SentryTransport,
   ],
 });
 
-// if not in production, then log to the console 
-// with the colorized simple format
-if (process.env.NODE_ENV !== "production") {
-    logger.add(new winston.transports.Console({
-        format: winston.format.combine(
-            winston.format.colorize(),
-            winston.format.simple()
-        )
-    }));
+if (process.env.CI === "true") {
+  logger.remove(SentryTransport);
 }
 
 export default logger;
-
