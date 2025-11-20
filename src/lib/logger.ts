@@ -2,12 +2,12 @@
 import * as Sentry from "@sentry/node";
 import winston from "winston";
 
-if (process.env.NODE_ENV !== "test") {
+
 Sentry.init({
   dsn: process.env.SENTRY_DSN,
   tracesSampleRate: 1.0,
 });
-}
+
 
 const SentryTransport = new winston.transports.Console({
   log(info, sentryCall) {
