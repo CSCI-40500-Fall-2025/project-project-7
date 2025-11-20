@@ -23,6 +23,7 @@ jobs:
     env:
       CI: true
       LOG_LEVEL: silly
+      SENTRY_DSN: ${{ secrets.SENTRY_AUTH_TOKEN }}
 
     steps:
       - uses: actions/checkout@v4
