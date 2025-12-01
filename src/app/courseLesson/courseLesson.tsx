@@ -2,7 +2,7 @@
 "use client"
 
 import { CourseUnitStructure, TopicStructure } from "./page"
-import { geminiFetch } from "../api/geminiAPI/gemini"
+import { getPrompt, QuestionResponse } from "../api/geminiAPI/route"
 import { useState } from "react"
 
 
@@ -15,6 +15,35 @@ interface UnitDetailProp {
     unitTitle: string;
     topics: TopicStructure[];
 }
+
+
+async function getQuestions(unit: string, topic: string, lesson: string): Promise<QuestionResponse | null>{
+
+    try {
+        const prompt = getPrompt(unit, topic, lesson );
+
+        const res = await fetch("/api/geminiAPI", {
+            method: "POST",
+            headers: {
+                'Content-type': "application/json"
+            },
+            body: JSON.stringify({ body: prompt })
+        })
+
+        const data = await res.json();
+
+        // if data was sucessfully retrieved, print the output
+        if (res.ok) {
+            console.log(data.output);
+            return data.output
+        }
+    } catch (error) {
+        console.log(`error: ${error}`);
+    }
+
+    return null;
+}
+
 
 /**
  * Display detailed information about the unit
@@ -41,10 +70,21 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
                             <ul className="space-y-2">
                                 {
                                     topic.Lessons.map((lesson, idx) => (
-                                        <li key={`${topic["Topic Title"]}-${idx}`}
-                                            className="border border-gray-300 rounded p-4 bg-white cursor-pointer hover:border-blue-400"
+                                        <li key={`${topic["Topic Title"]}-${idx}`} 
+                                            className="border border-gray-300 rounded p-4 bg-white hover:border-blue-400"
                                         >
-                                            {lesson}
+                                            <div className="flex flex-row items-center justify-between">
+                                                <p className="font-medium">{lesson}</p>
+
+                                                <div className="">
+                                                    <button className="bg-blue-600 text-white rounded-md px-3 py-2 hover:bg-blue-700 cursor-pointer mr-5">
+                                                        Review
+                                                    </button>
+                                                    <button className="bg-green-600 text-white rounded-md px-3 py-2 hover:bg-green-700 cursor-pointer">
+                                                        Practice
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </li>
                                     ))
                                 }
