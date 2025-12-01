@@ -2,6 +2,7 @@
 import * as Sentry from "@sentry/node";
 import winston from "winston";
 
+
 Sentry.init({
   dsn: process.env.SENTRY_DSN,
   tracesSampleRate: 1.0,
@@ -25,7 +26,7 @@ const SentryTransport = new winston.transports.Console({
 });
 
 const logger = winston.createLogger({
-  level: "silly",
+  level: process.env.LOG_LEVEL || "sily",
   format: winston.format.combine(winston.format.timestamp(), winston.format.json()),
   transports: [
     new winston.transports.Console(),
