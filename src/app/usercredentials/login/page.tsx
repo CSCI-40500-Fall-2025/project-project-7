@@ -15,20 +15,20 @@ function LogInOptions() {
     
     return (
         <div className="space-y-3 w-[80%]">
-            <button className="flex justify-center items-center border-1 border-black rounded-md w-full py-2 px-4 cursor-pointer hover:border-blue-500">
+            <button className="flex justify-center items-center border border-black rounded-md w-full py-2 px-4 cursor-pointer hover:border-blue-500">
                 <img src="/images/credentials/googleLogo.png" alt="google logo" className="h-7 mr-2"/>
                 <p className="font-medium">Continue with Google</p>
             </button>
 
             <div className="flex flex-row justify-between">
-                <button className="items-center border-1 border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
+                <button className="items-center border border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
                     <img src="/images/credentials/microsoftLogo.png" alt="microsoft logo"className="h-7"/>
                 </button>
-                <button className="items-center border-1 border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
+                <button className="items-center border border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
                     <img src="/images/credentials/appleLogo.png" alt="apple logo" className="h-7"/>
                 </button>
 
-                <button className="items-center border-1 border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
+                <button className="items-center border border-black rounded-md py-2 px-4 cursor-pointer hover:border-blue-500">
                     <img src="/images/credentials/facebookLogo.png" alt="facebook logo"className="h-7"/>
                 </button>
             </div>
@@ -76,7 +76,7 @@ function Form() {
                     placeholder="email@example.com" 
                     value={data.email}
                     required 
-                    className="w-full border-1 border-black rounded-sm px-3 py-2"
+                    className="w-full border border-black rounded-sm px-3 py-2"
                     onChange={handleInputChange}
                     
                 />
@@ -89,7 +89,7 @@ function Form() {
                     name="password"
                     value={data.password} 
                     required 
-                    className="w-full border-1 border-black rounded-sm px-3 py-2"
+                    className="w-full border border-black rounded-sm px-3 py-2"
                     onChange={handleInputChange}
                     
                 />
@@ -103,7 +103,7 @@ function Form() {
 
             <button 
                 type="submit" 
-                className={`border-1 rounded-md  text-white font-bold py-2 w-full ${
+                className={`border rounded-md  text-white font-bold py-2 w-full ${
                     isInfoFilled ? "cursor-pointer bg-blue-500" : "bg-gray-400 cursor-not-allowed"
                     }`}
                 disabled={!isInfoFilled}

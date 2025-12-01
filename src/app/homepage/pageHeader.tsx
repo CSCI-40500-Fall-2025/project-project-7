@@ -15,7 +15,7 @@ export function NavigationBar() {
                 </Link>
             </div>
 
-            <div className="flex flex-col space-x-8 md:flex-row">
+            <div className="hidden md:flex flex-col space-x-8 md:flex-row">
                 <h2 className="font-bold hover:underline cursor-pointer">About</h2>
 
                 <Link href="/coursepage">

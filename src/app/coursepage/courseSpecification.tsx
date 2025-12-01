@@ -72,6 +72,8 @@ export default function CourseSpecification({subject, description, courseName, c
                 
                 {/* right column - displays the start button */}
                 <div>
+                    {/* need to create generic course template for those that do not have a course
+                    structure file */}
                     <Link href={`/courseLesson?courseName=${encodeURIComponent(courseId)}`}>
                         <button className="border-2 border-black px-5 py-3 rounded-md cursor-pointer">
                             Start Course

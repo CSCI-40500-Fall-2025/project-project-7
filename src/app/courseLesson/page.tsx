@@ -5,12 +5,16 @@ import { loadCourseStructure, findingError } from "../api/winston/logger"
 import CourseLessonClient from "../courseLesson/courseLesson"
 
 
-
 export interface CourseUnitStructure {
     "Unit Title": string;
-    Topics: string[];
+    Topics: TopicStructure[];
 }
 
+
+export interface TopicStructure {
+    "Topic Title": string;
+    Lessons: string[];
+}
 
 /**
  * Retrieves the data on all the topics in the selected course
@@ -31,16 +35,14 @@ export default async function CourseLesson({ searchParams }: { searchParams: Rec
     console.log(courseId);
 
     const courseLessonData = await getCourseTopicData(courseId);
+
     await loadCourseStructure(); // log an error trying to get course structure
     await findingError(); // log a bug (placeholder);
-    // console.log(Object.keys(courseLessonData));
 
     return (
         <>
             <NavigationBar/>
-                
             <CourseLessonClient courseLessonData={courseLessonData}/>
         </>
     )
-
 }

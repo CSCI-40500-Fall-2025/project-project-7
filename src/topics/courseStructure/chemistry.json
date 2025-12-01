@@ -1,29 +1,303 @@
 {
-    "Unit 1": {
-        "Unit Title": "Atoms, isotopes, and ions",
-        "Topics": [
-            "Atomic Structure",
-            "Isotopes",
-            "Ions"
+  "Unit 1": {
+    "Unit Title": "Foundations of Chemistry",
+    "Topics": [
+      {
+        "Topic Title": "Chemistry Basics",
+        "Lessons": [
+          "What is Chemistry?",
+          "Scientific Method",
+          "Lab Safety"
         ]
-    },
-    "Unit 2": {
-        "Unit Title": "Atomic models and periodicity",
-        "Topics": [
-            "The Bohr model and atomic spectra",
-            "Lewis diagrams",
-            "The quantum model",
-            "The periodic table",
-            "Peridic trends"
+      },
+      {
+        "Topic Title": "Measurements",
+        "Lessons": [
+          "SI Units",
+          "Accuracy vs Precision",
+          "Significant Figures"
         ]
-    },
-    "Unit 3": {
-        "Unit Title": "Chemical bonding",
-        "Topics": [
-            "Ionic bonds",
-            "Ionic nomenclature",
-            "Covalent bonds",
-            "Metallic bonds"
+      },
+      {
+        "Topic Title": "Matter",
+        "Lessons": [
+          "States of Matter",
+          "Physical vs Chemical Changes",
+          "Elements, Compounds, Mixtures"
         ]
-    }
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Atomic Structure",
+    "Topics": [
+      {
+        "Topic Title": "Atoms & Subatomic Particles",
+        "Lessons": [
+          "Structure of the Atom",
+          "Protons, Neutrons, Electrons"
+        ]
+      },
+      {
+        "Topic Title": "History of the Atom",
+        "Lessons": [
+          "Dalton Model",
+          "Thomson Model",
+          "Rutherford Model",
+          "Bohr Model"
+        ]
+      },
+      {
+        "Topic Title": "Isotopes & Ions",
+        "Lessons": [
+          "Isotopes",
+          "Average Atomic Mass",
+          "Formation of Ions"
+        ]
+      },
+      {
+        "Topic Title": "Electron Arrangement",
+        "Lessons": [
+          "Bohr Diagrams",
+          "Lewis Dot Diagrams"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Periodicity",
+    "Topics": [
+      {
+        "Topic Title": "Periodic Table",
+        "Lessons": [
+          "Organization of the Table",
+          "Groups vs Periods",
+          "Metals, Nonmetals, Metalloids"
+        ]
+      },
+      {
+        "Topic Title": "Periodic Trends",
+        "Lessons": [
+          "Atomic Radius",
+          "Ionization Energy",
+          "Electronegativity"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Chemical Bonding",
+    "Topics": [
+      {
+        "Topic Title": "Ionic Bonding",
+        "Lessons": [
+          "Formation of Ionic Bonds",
+          "Properties of Ionic Compounds",
+          "Naming Ionic Compounds"
+        ]
+      },
+      {
+        "Topic Title": "Covalent Bonding",
+        "Lessons": [
+          "Single, Double, Triple Bonds",
+          "Polar vs Nonpolar Bonds",
+          "Molecules & Properties"
+        ]
+      },
+      {
+        "Topic Title": "Metallic Bonding",
+        "Lessons": [
+          "Electron Sea Model",
+          "Metal Properties"
+        ]
+      },
+      {
+        "Topic Title": "Molecular Shapes",
+        "Lessons": [
+          "VSEPR Introduction",
+          "Common Molecular Shapes"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Chemical Reactions",
+    "Topics": [
+      {
+        "Topic Title": "Types of Reactions",
+        "Lessons": [
+          "Synthesis",
+          "Decomposition",
+          "Single Replacement",
+          "Double Replacement",
+          "Combustion"
+        ]
+      },
+      {
+        "Topic Title": "Balancing Chemical Equations",
+        "Lessons": [
+          "Law of Conservation of Mass",
+          "Balancing Step-by-Step"
+        ]
+      },
+      {
+        "Topic Title": "Energy in Reactions",
+        "Lessons": [
+          "Endothermic vs Exothermic",
+          "Activation Energy (Basics)"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "The Mole & Stoichiometry",
+    "Topics": [
+      {
+        "Topic Title": "The Mole",
+        "Lessons": [
+          "Avogadro’s Number",
+          "Molar Mass"
+        ]
+      },
+      {
+        "Topic Title": "Stoichiometry",
+        "Lessons": [
+          "Mole Ratios",
+          "Mass Calculations",
+          "Limiting Reactants (Intro)"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "States of Matter",
+    "Topics": [
+      {
+        "Topic Title": "Gases",
+        "Lessons": [
+          "Gas Laws (Boyle, Charles)",
+          "Combined Gas Law",
+          "Ideal Gas Law (Concept Only)"
+        ]
+      },
+      {
+        "Topic Title": "Liquids & Solids",
+        "Lessons": [
+          "Intermolecular Forces (Basics)",
+          "Phase Changes",
+          "Heating & Cooling Curves"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Thermochemistry",
+    "Topics": [
+      {
+        "Topic Title": "Heat & Temperature",
+        "Lessons": [
+          "Heat vs Temperature",
+          "Specific Heat",
+          "Calorimetry (Basic Practice)"
+        ]
+      },
+      {
+        "Topic Title": "Energy Changes",
+        "Lessons": [
+          "Endothermic vs Exothermic",
+          "Energy Diagrams (Simplified)"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "Solutions & Solubility",
+    "Topics": [
+      {
+        "Topic Title": "Solutions",
+        "Lessons": [
+          "Solute vs Solvent",
+          "Concentration (Molarity)",
+          "Dilutions"
+        ]
+      },
+      {
+        "Topic Title": "Solubility",
+        "Lessons": [
+          "Factors Affecting Solubility",
+          "Solubility Curves"
+        ]
+      }
+    ]
+  },
+
+  "Unit 10": {
+    "Unit Title": "Acids & Bases",
+    "Topics": [
+      {
+        "Topic Title": "Properties of Acids & Bases",
+        "Lessons": [
+          "Common Properties",
+          "Indicators & pH Scale"
+        ]
+      },
+      {
+        "Topic Title": "pH Calculations",
+        "Lessons": [
+          "Calculating pH & pOH",
+          "Neutralization (Conceptual)"
+        ]
+      }
+    ]
+  },
+
+  "Unit 11": {
+    "Unit Title": "Equilibrium & Reaction Rates",
+    "Topics": [
+      {
+        "Topic Title": "Reaction Rates",
+        "Lessons": [
+          "Collision Theory (Basics)",
+          "Factors Affecting Reaction Rate"
+        ]
+      },
+      {
+        "Topic Title": "Equilibrium (Conceptual)",
+        "Lessons": [
+          "What is Equilibrium?",
+          "Le Châtelier’s Principle (Simple)"
+        ]
+      }
+    ]
+  },
+
+  "Unit 12": {
+    "Unit Title": "Intro to Organic Chemistry",
+    "Topics": [
+      {
+        "Topic Title": "Hydrocarbons",
+        "Lessons": [
+          "Alkanes",
+          "Alkenes",
+          "Alkynes"
+        ]
+      },
+      {
+        "Topic Title": "Simple Functional Groups",
+        "Lessons": [
+          "Alcohols",
+          "Carboxylic Acids",
+          "Esters"
+        ]
+      }
+    ]
+  }
 }

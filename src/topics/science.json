@@ -25,5 +25,18 @@
     "AP/College Physics 2": [],
     "Organic Chemistry": [],
     "AP/College Environmental Science": [],
-    "Chemistry": []
+    "Chemistry": [
+        "Foundations of Chemistry",
+        "Atomic Structure",
+        "Periodicity",
+        "Chemical Bonding",
+        "Chemical Reactions",
+        "The Mole & Stoichiometry",
+        "States of Matter",
+        "Thermochemistry",
+        "Solutions & Solubility",
+        "Acids & Bases",
+        "Equilibrium & Reaction Rates",
+        "Intro to Organic Chemistry"
+    ]
 }
