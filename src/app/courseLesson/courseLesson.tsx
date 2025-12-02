@@ -2,8 +2,9 @@
 "use client"
 
 import { CourseUnitStructure, TopicStructure } from "./page"
-import { getPrompt, QuestionResponse } from "../api/geminiAPI/route"
+import { getQuestionsPrompt, getNotesPrompt, QuestionResponse } from "../api/geminiAPI/route"
 import { useState } from "react"
+
 
 
 interface Props {
@@ -16,11 +17,38 @@ interface UnitDetailProp {
     topics: TopicStructure[];
 }
 
+async function getNotes(unit: string, topic: string, lesson: string) {
+     
+    try {
+        const prompt = getNotesPrompt(unit, topic, lesson );
+
+        const res = await fetch("/api/geminiAPI", {
+            method: "POST",
+            headers: {
+                'Content-type': "application/json"
+            },
+            body: JSON.stringify({ body: prompt })
+        })
+
+        const data = await res.json();
+
+        // if data was sucessfully retrieved, print the output
+        if (res.ok) {
+            console.log(data.output);
+            return data.output
+        }
+    } catch (error) {
+        console.log(`error: ${error}`);
+    }
+
+    return null
+}
+
 
 async function getQuestions(unit: string, topic: string, lesson: string): Promise<QuestionResponse | null>{
 
     try {
-        const prompt = getPrompt(unit, topic, lesson );
+        const prompt = getQuestionsPrompt(unit, topic, lesson );
 
         const res = await fetch("/api/geminiAPI", {
             method: "POST",
@@ -57,6 +85,30 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
     const unitTitle: string = selectedUnit.unitTitle;
     const topics: TopicStructure[] = selectedUnit.topics;
 
+    async function handleGetNotes(unit: string, topic: string, lesson: string) {
+        const data = await getNotes(unit, topic, lesson);
+
+        if (data != null) {
+            console.log(data);
+            console.log(Object.keys(data));
+            console.log(Object.keys(data.questions));
+            localStorage.setItem("notes", JSON.stringify(data));
+            // window.location.href = "/courseLesson/questions";
+        }
+    }
+
+    async function handleGetQuestions(unit: string, topic: string, lesson: string) {
+        const data = await getQuestions(unit, topic, lesson);
+
+        if (data != null) {
+            console.log(data);
+            console.log(Object.keys(data));
+            console.log(Object.keys(data.questions));
+            localStorage.setItem("questions", JSON.stringify(data));
+            // window.location.href = "/courseLesson/questions";
+        }
+    }
+
     return (
         <div className="w-full bg-white p-5 shadow">
             <h1 className="text-4xl font-bold mb-5">{unit}: {unitTitle}</h1>
@@ -77,10 +129,15 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
                                                 <p className="font-medium">{lesson}</p>
 
                                                 <div className="">
-                                                    <button className="bg-blue-600 text-white rounded-md px-3 py-2 hover:bg-blue-700 cursor-pointer mr-5">
+                                                    <button className="bg-blue-600 text-white rounded-md px-3 py-2 hover:bg-blue-700 cursor-pointer mr-5"
+                                                            onClick={() => handleGetNotes(unitTitle, topic["Topic Title"], lesson)}
+                                                    >
                                                         Review
                                                     </button>
-                                                    <button className="bg-green-600 text-white rounded-md px-3 py-2 hover:bg-green-700 cursor-pointer">
+                                                    <button className="bg-green-600 text-white rounded-md px-3 py-2 hover:bg-green-700 cursor-pointer"
+                                                            // onClick={() => getQuestions(unitTitle, topic["Topic Title"], lesson)}
+                                                            onClick={() => handleGetQuestions(unitTitle, topic["Topic Title"], lesson)}
+                                                    >
                                                         Practice
                                                     </button>
                                                 </div>
@@ -97,6 +154,7 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
         </div>
     )
 }
+
 
 /**
  * Displays information on the selected course

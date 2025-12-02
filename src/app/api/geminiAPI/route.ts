@@ -6,7 +6,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 
 export interface QuestionResponse {
-    Questions: Question[];
+    questions: Question[];
 }
 
 interface Question {
@@ -17,7 +17,29 @@ interface Question {
     support_image: string | null;
 }
 
-export function getPrompt(unitName: string, topic: string, lesson: string): string {
+export function getNotesPrompt(unitName: string, topic: string, lesson: string): string {
+    const prompt =
+    `
+        Create notes for students to learn and review for the lesson ${lesson} on the ${topic} for
+        ${unitName}.
+
+        Return a valid JSON structure in the following:
+        {
+            "unitName": ${unitName},
+            "topic": ${topic},
+            "lesson": ${lesson},
+            "KeyConcepts": [],
+            "definitions": [],
+            "examples": [],
+        }
+
+        Fill the arrays with relevant information. Do not return anything outside this JSON
+    `
+
+    return prompt
+}
+
+export function getQuestionsPrompt(unitName: string, topic: string, lesson: string): string {
     const prompt = 
     `
         Generate 5 multiple choice questions for the lesson ${lesson} on the topic ${topic} for
@@ -27,17 +49,18 @@ export function getPrompt(unitName: string, topic: string, lesson: string): stri
         {
             "questions": [
                 {
-                    "id": string,
-                    "question": string,
-                    "options": string[],
-                    "correct_answer": string,
-                    "explanation": string,
-                    "supporting_image": string | null,
+                    "id": "",
+                    "question": "",
+                    "options": [],
+                    "correct_answer": "",
+                    "explanation": "",
+                    "supporting_image": null,
                 }
             ]
         }
 
-        Only include a image if it is necessary for the lesson and topic.
+        Only include a image if it is necessary for the lesson and topic. 
+        Fill the arrays with relevant information. Do not return anything outside this JSON
     `
     
     return prompt;
