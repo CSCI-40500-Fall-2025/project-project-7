@@ -1,7 +1,6 @@
 import '@testing-library/jest-dom'
 import {TestInput} from "@/app/usercredentials/signup/inputValidation";
 
-
 describe("Password Validation", () => {
     it('gmail', () =>{
         const result = TestInput("test@gmail.com", "dummyPassword!1");
