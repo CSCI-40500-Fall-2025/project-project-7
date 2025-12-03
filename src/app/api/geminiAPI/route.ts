@@ -67,7 +67,7 @@ export function getQuestionsPrompt(unitName: string, topic: string, lesson: stri
 }
 
 
-export async function POST(req: Request, res: Response) {
+export async function POST(req: NextRequest, res: NextResponse) {
 
     try {
         const gemini = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
