@@ -10,7 +10,7 @@ export default function QuestionsPage() {
     const [currentQuestion, setCurrentQuestion] = useState();
 
     useEffect(() => {
-        let data = localStorage.getItem("questions");
+        const data = localStorage.getItem("questions");
 
         if (!data) return;
         

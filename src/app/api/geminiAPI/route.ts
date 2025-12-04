@@ -67,7 +67,7 @@ export function getQuestionsPrompt(unitName: string, topic: string, lesson: stri
 }
 
 
-export async function POST(req: Request, res: Response) {
+export async function POST(req: NextRequest) {
 
     try {
         const gemini = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
@@ -85,6 +85,10 @@ export async function POST(req: Request, res: Response) {
 
     } catch(err) {
         console.log(`error: ${err}`);
+        return NextResponse.json(
+            {error: "Internal Server Error" },
+            { status: 500 }
+        );
     }
 }
 
