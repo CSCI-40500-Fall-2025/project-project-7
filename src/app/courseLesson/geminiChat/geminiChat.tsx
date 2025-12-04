@@ -40,6 +40,7 @@ export default function GeminiChat() {
         ];
 
         const reply = await getBotResponse();
+        setUserMessage("");
         console.log(reply);
 
         setChatHistory(prevChatHistory => [
@@ -49,7 +50,7 @@ export default function GeminiChat() {
     }
 
     return (
-        <div>
+        <div className="flex flex-col items-center border">
             <div>
                 {
                     chatHistory.map((message, idx) => (
@@ -65,7 +66,10 @@ export default function GeminiChat() {
                     placeholder="Enter a message"
             />
 
-            <button onClick={handleSubmit}>Send</button>
+            <button onClick={handleSubmit}
+                    className="border border-black rounded-lg px-4 py-2 hover:bg-blue-600">
+                Send
+            </button>
         </div>
     );
 }
