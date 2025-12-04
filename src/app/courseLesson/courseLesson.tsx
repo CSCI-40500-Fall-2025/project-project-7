@@ -2,6 +2,7 @@
 "use client"
 
 import { CourseUnitStructure, TopicStructure } from "./page"
+import Link from "next/link"
 import { getQuestionsPrompt, getNotesPrompt, QuestionResponse } from "../api/geminiAPI/route"
 import { useState } from "react"
 
@@ -90,8 +91,6 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
 
         if (data != null) {
             console.log(data);
-            console.log(Object.keys(data));
-            console.log(Object.keys(data.questions));
             localStorage.setItem("notes", JSON.stringify(data));
             // window.location.href = "/courseLesson/questions";
         }
@@ -102,8 +101,6 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
 
         if (data != null) {
             console.log(data);
-            console.log(Object.keys(data));
-            console.log(Object.keys(data.questions));
             localStorage.setItem("questions", JSON.stringify(data));
             // window.location.href = "/courseLesson/questions";
         }
@@ -207,6 +204,12 @@ export default function CourseLessonClient(data: Props): React.JSX.Element {
                     unitTitle={courseLessonData[selectedUnit]["Unit Title"]}
                 />
             </div>
+            
+            <Link href="/courseLesson/geminiChat">
+                <button>
+                    Chat
+                </button>
+            </Link>
         </div>
     )
 }
