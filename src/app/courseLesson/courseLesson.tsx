@@ -3,7 +3,7 @@
 
 import { CourseUnitStructure, TopicStructure } from "./page"
 import Link from "next/link"
-import { getQuestionsPrompt, getNotesPrompt, QuestionResponse } from "../api/geminiAPI/route"
+import { QuestionResponse } from "../api/geminiAPI/route"
 import { useState } from "react"
 
 
@@ -18,25 +18,79 @@ interface UnitDetailProp {
     topics: TopicStructure[];
 }
 
-async function getNotes(unit: string, topic: string, lesson: string) {
-     
-    try {
-        const prompt = getNotesPrompt(unit, topic, lesson );
 
-        const res = await fetch("/api/geminiAPI", {
+function getNotesPrompt(unitName: string, topic: string, lesson: string): string {
+    const prompt =
+    `
+        Create notes for students to learn and review for the lesson ${lesson} on the ${topic} for
+        ${unitName}.
+
+        Return a valid JSON structure in the following:
+        {
+            "unitName": ${unitName},
+            "topic": ${topic},
+            "lesson": ${lesson},
+            "KeyConcepts": [],
+            "definitions": [],
+            "examples": [],
+        }
+
+        Fill the arrays with relevant information. Do not return anything outside this JSON
+    `
+
+    return prompt
+}
+
+function getQuestionsPrompt(unitName: string, topic: string, lesson: string): string {
+    const prompt = 
+    `
+        Generate 5 multiple choice questions for the lesson ${lesson} on the topic ${topic} for
+        ${unitName}.
+
+        Return a valid JSON structure in the following:
+        {
+            "questions": [
+                {
+                    "id": "",
+                    "question": "",
+                    "options": [],
+                    "correct_answer": "",
+                    "explanation": "",
+                    "supporting_image": null,
+                }
+            ]
+        }
+
+        Only include a image if it is necessary for the lesson and topic. 
+        Fill the arrays with relevant information. Do not return anything outside this JSON
+    `
+    
+    return prompt;
+}
+
+async function getNotes(unit: string, topic: string, lesson: string) {
+    const prompt = getNotesPrompt(unit, topic, lesson );
+
+    try {
+        const response = await fetch("/api/geminiAPI", {
             method: "POST",
             headers: {
                 'Content-type': "application/json"
             },
-            body: JSON.stringify({ body: prompt })
+            body: JSON.stringify({ prompt: prompt })
         })
 
-        const data = await res.json();
+        if(!response.ok) {
+            throw new Error("Problem getting gemini chat response");
+        }
+
+        const data = await response.json();
+        console.log(data);
 
         // if data was sucessfully retrieved, print the output
-        if (res.ok) {
-            console.log(data.output);
-            return data.output
+        if (response.ok) {
+            console.log("Reponse success: ", data);
+            return data;
         }
     } catch (error) {
         console.log(`error: ${error}`);
@@ -47,25 +101,28 @@ async function getNotes(unit: string, topic: string, lesson: string) {
 
 
 async function getQuestions(unit: string, topic: string, lesson: string): Promise<QuestionResponse | null>{
+    const prompt = getQuestionsPrompt(unit, topic, lesson );
 
     try {
-        const prompt = getQuestionsPrompt(unit, topic, lesson );
-
-        const res = await fetch("/api/geminiAPI", {
+        const response = await fetch("/api/geminiAPI", {
             method: "POST",
             headers: {
                 'Content-type': "application/json"
             },
-            body: JSON.stringify({ body: prompt })
+            body: JSON.stringify({ prompt: prompt })
         })
 
-        const data = await res.json();
+        if(!response.ok) {
+                throw new Error("Problem getting gemini chat response");
+        }
+
+        const data = await response.json();
 
         // if data was sucessfully retrieved, print the output
-        if (res.ok) {
-            console.log(data.output);
-            return data.output
+        if (response.ok) {
+            console.log(data);
         }
+        return data;
     } catch (error) {
         console.log(`error: ${error}`);
     }
@@ -89,8 +146,8 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
     async function handleGetNotes(unit: string, topic: string, lesson: string) {
         const data = await getNotes(unit, topic, lesson);
 
-        if (data != null) {
-            console.log(data);
+        if (data !== null) {
+            // console.log(data);
             localStorage.setItem("notes", JSON.stringify(data));
             // window.location.href = "/courseLesson/questions";
         }
@@ -102,7 +159,7 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
         if (data != null) {
             console.log(data);
             localStorage.setItem("questions", JSON.stringify(data));
-            // window.location.href = "/courseLesson/questions";
+            window.location.href = "/courseLesson/questions";
         }
     }
 
@@ -205,7 +262,7 @@ export default function CourseLessonClient(data: Props): React.JSX.Element {
                 />
             </div>
             
-            <Link href="/courseLesson/geminiChat">
+            <Link href="/courseLesson/geminiChatBot">
                 <button>
                     Chat
                 </button>
