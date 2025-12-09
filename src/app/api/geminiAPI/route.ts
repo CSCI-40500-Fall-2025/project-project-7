@@ -13,6 +13,7 @@ interface Question {
     id: string;
     question: string;
     options: string[];
+    correct_answer: string;
     explanation: string;
     support_image: string | null;
 }
