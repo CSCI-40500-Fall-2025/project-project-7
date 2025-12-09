@@ -9,7 +9,7 @@ export interface QuestionResponse {
     questions: Question[];
 }
 
-interface Question {
+export interface Question {
     id: string;
     question: string;
     options: string[];
