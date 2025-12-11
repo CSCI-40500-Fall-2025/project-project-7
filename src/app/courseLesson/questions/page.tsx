@@ -32,7 +32,7 @@ export default function QuestionsPage() {
     }, []);
 
     if (practiceQuestions === null) {
-        return <h1>Loading data. Please wait</h1>;
+        return <h1>Loading data. Please wait</h1>
     }
 
     return (

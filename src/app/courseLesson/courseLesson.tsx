@@ -2,7 +2,6 @@
 "use client"
 
 import { CourseUnitStructure, TopicStructure } from "./page"
-import Link from "next/link"
 import { QuestionResponse } from "../api/geminiAPI/route"
 import { useState } from "react"
 
@@ -147,9 +146,9 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
         const data = await getNotes(unit, topic, lesson);
 
         if (data !== null) {
-            // console.log(data);
+            console.log(data);
             localStorage.setItem("notes", JSON.stringify(data));
-            // window.location.href = "/courseLesson/questions";
+            window.location.href = "/courseLesson/notes";
         }
     }
 
@@ -261,12 +260,6 @@ export default function CourseLessonClient(data: Props): React.JSX.Element {
                     unitTitle={courseLessonData[selectedUnit]["Unit Title"]}
                 />
             </div>
-            
-            <Link href="/courseLesson/geminiChatBot">
-                <button>
-                    Chat
-                </button>
-            </Link>
         </div>
     )
 }
