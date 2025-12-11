@@ -1,0 +1,177 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations & Angles",
+    "Topics": [
+      {
+        "Topic Title": "Basic Trigonometric Concepts",
+        "Lessons": [
+          "Angles & Their Measures (Degrees & Radians)",
+          "Converting Between Degrees & Radians",
+          "Reference Angles & Coterminal Angles"
+        ]
+      },
+      {
+        "Topic Title": "Right Triangle Trigonometry",
+        "Lessons": [
+          "Sine, Cosine, Tangent Ratios",
+          "Solving Right Triangles",
+          "Applications in Real Life"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Unit Circle & Trig Functions",
+    "Topics": [
+      {
+        "Topic Title": "Unit Circle Basics",
+        "Lessons": [
+          "Coordinates on the Unit Circle",
+          "Angles in Standard Position",
+          "Sign of Trig Functions by Quadrant"
+        ]
+      },
+      {
+        "Topic Title": "Trigonometric Functions",
+        "Lessons": [
+          "Sine, Cosine, Tangent Functions",
+          "Reciprocal Functions: Cosecant, Secant, Cotangent",
+          "Graphs of Basic Trig Functions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Graphing Trigonometric Functions",
+    "Topics": [
+      {
+        "Topic Title": "Sine & Cosine Functions",
+        "Lessons": [
+          "Amplitude & Period",
+          "Phase Shift & Vertical Shift",
+          "Modeling with Sine & Cosine"
+        ]
+      },
+      {
+        "Topic Title": "Tangent & Reciprocal Functions",
+        "Lessons": [
+          "Graphing Tangent Functions",
+          "Asymptotes & Period",
+          "Graphs of Cosecant, Secant, Cotangent"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Trigonometric Identities & Equations",
+    "Topics": [
+      {
+        "Topic Title": "Fundamental Identities",
+        "Lessons": [
+          "Reciprocal, Quotient, Pythagorean Identities",
+          "Simplifying Trig Expressions",
+          "Using Identities to Solve Problems"
+        ]
+      },
+      {
+        "Topic Title": "Trigonometric Equations",
+        "Lessons": [
+          "Solving Basic Trig Equations",
+          "Using Identities to Solve",
+          "General Solutions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Inverse Trigonometric Functions",
+    "Topics": [
+      {
+        "Topic Title": "Definition & Properties",
+        "Lessons": [
+          "Arcsin, Arccos, Arctan",
+          "Domain & Range of Inverse Functions",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Solving Equations",
+        "Lessons": [
+          "Equations Using Inverse Functions",
+          "Real-World Applications",
+          "Graphing Inverse Trig Functions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Law of Sines & Cosines",
+    "Topics": [
+      {
+        "Topic Title": "Law of Sines",
+        "Lessons": [
+          "Solving Oblique Triangles",
+          "Ambiguous Case (SSA)",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Law of Cosines",
+        "Lessons": [
+          "Solving Oblique Triangles",
+          "Finding Unknown Sides & Angles",
+          "Real-World Problems"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Trigonometric Applications",
+    "Topics": [
+      {
+        "Topic Title": "Modeling & Harmonic Motion",
+        "Lessons": [
+          "Periodic Functions in Real Life",
+          "Simple Harmonic Motion",
+          "Amplitude, Period, Phase Shift"
+        ]
+      },
+      {
+        "Topic Title": "Vectors & Navigation",
+        "Lessons": [
+          "Vector Components Using Trig",
+          "Direction & Magnitude",
+          "Applications in Physics & Engineering"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Polar Coordinates & Complex Numbers",
+    "Topics": [
+      {
+        "Topic Title": "Polar Coordinates",
+        "Lessons": [
+          "Plotting Points in Polar Form",
+          "Converting Between Polar & Rectangular",
+          "Graphing Polar Equations"
+        ]
+      },
+      {
+        "Topic Title": "Complex Numbers in Trig Form",
+        "Lessons": [
+          "Complex Numbers & Argand Plane",
+          "Multiplication & Division Using Polar Form",
+          "De Moivre’s Theorem"
+        ]
+      }
+    ]
+  }
+}

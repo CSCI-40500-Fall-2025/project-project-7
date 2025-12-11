@@ -1,0 +1,221 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations & Review",
+    "Topics": [
+      {
+        "Topic Title": "Equations & Inequalities",
+        "Lessons": [
+          "Linear Equations & Inequalities",
+          "Absolute Value Equations",
+          "Compound Inequalities"
+        ]
+      },
+      {
+        "Topic Title": "Functions & Graphs",
+        "Lessons": [
+          "Function Notation & Evaluation",
+          "Domain & Range",
+          "Graphing Linear & Quadratic Functions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Polynomials & Factoring",
+    "Topics": [
+      {
+        "Topic Title": "Polynomial Operations",
+        "Lessons": [
+          "Adding & Subtracting Polynomials",
+          "Multiplying Polynomials",
+          "Special Products"
+        ]
+      },
+      {
+        "Topic Title": "Factoring Polynomials",
+        "Lessons": [
+          "Greatest Common Factor",
+          "Factoring Trinomials",
+          "Difference of Squares & Sum/Difference of Cubes"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Quadratic Functions & Equations",
+    "Topics": [
+      {
+        "Topic Title": "Solving Quadratics",
+        "Lessons": [
+          "Factoring Method",
+          "Completing the Square",
+          "Quadratic Formula"
+        ]
+      },
+      {
+        "Topic Title": "Graphing Quadratics",
+        "Lessons": [
+          "Vertex Form & Transformations",
+          "Axis of Symmetry",
+          "Applications of Quadratic Functions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Rational Expressions & Equations",
+    "Topics": [
+      {
+        "Topic Title": "Rational Expressions",
+        "Lessons": [
+          "Simplifying Rational Expressions",
+          "Multiplying & Dividing",
+          "Adding & Subtracting"
+        ]
+      },
+      {
+        "Topic Title": "Rational Equations & Applications",
+        "Lessons": [
+          "Solving Rational Equations",
+          "Excluded Values & Domain",
+          "Word Problems"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Radicals & Complex Numbers",
+    "Topics": [
+      {
+        "Topic Title": "Radical Expressions",
+        "Lessons": [
+          "Simplifying Radicals",
+          "Operations with Radicals",
+          "Rationalizing Denominators"
+        ]
+      },
+      {
+        "Topic Title": "Complex Numbers",
+        "Lessons": [
+          "Imaginary Unit i",
+          "Adding & Multiplying Complex Numbers",
+          "Complex Solutions to Quadratics"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Exponential & Logarithmic Functions",
+    "Topics": [
+      {
+        "Topic Title": "Exponential Functions",
+        "Lessons": [
+          "Growth & Decay Models",
+          "Graphing Exponentials",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Logarithmic Functions",
+        "Lessons": [
+          "Definition & Properties of Logs",
+          "Solving Logarithmic Equations",
+          "Logarithmic Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Sequences, Series & Probability",
+    "Topics": [
+      {
+        "Topic Title": "Sequences & Series",
+        "Lessons": [
+          "Arithmetic Sequences & Sums",
+          "Geometric Sequences & Sums",
+          "Recursive Formulas"
+        ]
+      },
+      {
+        "Topic Title": "Probability & Counting",
+        "Lessons": [
+          "Permutations & Combinations",
+          "Simple & Compound Probability",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Functions & Transformations",
+    "Topics": [
+      {
+        "Topic Title": "Polynomial Functions",
+        "Lessons": [
+          "End Behavior & Graphs",
+          "Zeros & Multiplicity",
+          "Factoring & Solving"
+        ]
+      },
+      {
+        "Topic Title": "Rational & Radical Functions",
+        "Lessons": [
+          "Graphing & Transformations",
+          "Asymptotes & Domain",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "Trigonometry & Unit Circle",
+    "Topics": [
+      {
+        "Topic Title": "Trigonometric Functions",
+        "Lessons": [
+          "Sine, Cosine, Tangent",
+          "Graphing Trig Functions",
+          "Amplitude, Period, Phase Shift"
+        ]
+      },
+      {
+        "Topic Title": "Unit Circle & Identities",
+        "Lessons": [
+          "Unit Circle Coordinates",
+          "Radians vs Degrees",
+          "Basic Trig Identities"
+        ]
+      }
+    ]
+  },
+
+  "Unit 10": {
+    "Unit Title": "Review & Advanced Applications",
+    "Topics": [
+      {
+        "Topic Title": "Comprehensive Review",
+        "Lessons": [
+          "All Algebra 2 Concepts",
+          "Problem Solving Strategies",
+          "Preparation for Standardized Tests"
+        ]
+      },
+      {
+        "Topic Title": "Applied Problems",
+        "Lessons": [
+          "Word Problems Across Units",
+          "Modeling Real-Life Situations",
+          "Connections to Pre-Calculus"
+        ]
+      }
+    ]
+  }
+}

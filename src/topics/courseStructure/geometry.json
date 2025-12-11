@@ -1,0 +1,185 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations of Geometry",
+    "Topics": [
+      {
+        "Topic Title": "Basics & Reasoning",
+        "Lessons": [
+          "Points, Lines, Planes",
+          "Segments & Angles",
+          "Inductive & Deductive Reasoning"
+        ]
+      },
+      {
+        "Topic Title": "Logic & Proofs",
+        "Lessons": [
+          "Conditional Statements",
+          "Converse, Inverse, Contrapositive",
+          "Two-Column & Paragraph Proofs"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Parallel & Perpendicular Lines",
+    "Topics": [
+      {
+        "Topic Title": "Lines & Angles",
+        "Lessons": [
+          "Angles Formed by Transversals",
+          "Parallel Line Properties",
+          "Slopes & Equations of Lines"
+        ]
+      },
+      {
+        "Topic Title": "Transformations",
+        "Lessons": [
+          "Reflections",
+          "Translations",
+          "Rotations & Symmetry"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Triangles",
+    "Topics": [
+      {
+        "Topic Title": "Triangle Properties",
+        "Lessons": [
+          "Classification by Sides & Angles",
+          "Triangle Inequalities",
+          "Exterior Angle Theorem"
+        ]
+      },
+      {
+        "Topic Title": "Congruence",
+        "Lessons": [
+          "SSS, SAS, ASA, AAS",
+          "HL Theorem for Right Triangles",
+          "Congruence in Real-World Problems"
+        ]
+      },
+      {
+        "Topic Title": "Special Triangles",
+        "Lessons": [
+          "Isosceles & Equilateral",
+          "Right Triangles & Pythagorean Theorem",
+          "30-60-90 and 45-45-90 Triangles"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Quadrilaterals & Polygons",
+    "Topics": [
+      {
+        "Topic Title": "Quadrilaterals",
+        "Lessons": [
+          "Parallelograms",
+          "Rectangles, Squares, & Rhombuses",
+          "Trapezoids & Kites"
+        ]
+      },
+      {
+        "Topic Title": "Polygons",
+        "Lessons": [
+          "Sum of Interior & Exterior Angles",
+          "Regular Polygons",
+          "Diagonals & Symmetry"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Similarity & Right Triangles",
+    "Topics": [
+      {
+        "Topic Title": "Similarity",
+        "Lessons": [
+          "Ratio & Proportion",
+          "AA, SSS, SAS Similarity",
+          "Applications in Real Life"
+        ]
+      },
+      {
+        "Topic Title": "Right Triangle Trigonometry",
+        "Lessons": [
+          "Sine, Cosine, Tangent",
+          "SOHCAHTOA Problems",
+          "Special Right Triangles"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Circles",
+    "Topics": [
+      {
+        "Topic Title": "Circle Basics",
+        "Lessons": [
+          "Radius, Diameter, Chords",
+          "Central & Inscribed Angles",
+          "Arcs & Sectors"
+        ]
+      },
+      {
+        "Topic Title": "Equations & Tangents",
+        "Lessons": [
+          "Circle Equations in Coordinate Plane",
+          "Tangent Lines & Properties",
+          "Applications of Circles"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Area, Surface Area & Volume",
+    "Topics": [
+      {
+        "Topic Title": "Plane Figures",
+        "Lessons": [
+          "Area of Triangles, Quadrilaterals, & Polygons",
+          "Area of Circles & Sectors",
+          "Composite Figures"
+        ]
+      },
+      {
+        "Topic Title": "3D Figures",
+        "Lessons": [
+          "Surface Area of Prisms, Cylinders, Pyramids, Cones, & Spheres",
+          "Volume of 3D Figures",
+          "Applications in Real Life"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Coordinate Geometry & Transformations",
+    "Topics": [
+      {
+        "Topic Title": "Coordinate Plane Geometry",
+        "Lessons": [
+          "Distance & Midpoint Formulas",
+          "Slope & Equation of a Line",
+          "Circles & Polygons in the Plane"
+        ]
+      },
+      {
+        "Topic Title": "Transformations",
+        "Lessons": [
+          "Translations, Reflections, Rotations",
+          "Dilations & Similarity",
+          "Compositions of Transformations"
+        ]
+      }
+    ]
+  }
+}

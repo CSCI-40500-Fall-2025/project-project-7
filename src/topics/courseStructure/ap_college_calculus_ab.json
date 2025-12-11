@@ -1,0 +1,179 @@
+{
+  "Unit 1": {
+    "Unit Title": "Limits & Continuity",
+    "Topics": [
+      {
+        "Topic Title": "Understanding Limits",
+        "Lessons": [
+          "Intuitive Approach to Limits",
+          "Properties of Limits",
+          "One-Sided Limits"
+        ]
+      },
+      {
+        "Topic Title": "Continuity",
+        "Lessons": [
+          "Definition of Continuity",
+          "Discontinuities",
+          "Intermediate Value Theorem"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Derivatives",
+    "Topics": [
+      {
+        "Topic Title": "Definition & Concept",
+        "Lessons": [
+          "Derivative as a Limit",
+          "Interpretation as Slope & Rate of Change",
+          "Tangent Lines"
+        ]
+      },
+      {
+        "Topic Title": "Differentiation Rules",
+        "Lessons": [
+          "Power, Constant, and Sum Rules",
+          "Product & Quotient Rules",
+          "Chain Rule"
+        ]
+      },
+      {
+        "Topic Title": "Applications of Derivatives",
+        "Lessons": [
+          "Implicit Differentiation",
+          "Related Rates",
+          "Linear Approximation"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Applications of Derivatives",
+    "Topics": [
+      {
+        "Topic Title": "Analysis of Functions",
+        "Lessons": [
+          "Critical Points & Extrema",
+          "Increasing/Decreasing Functions",
+          "Concavity & Inflection Points"
+        ]
+      },
+      {
+        "Topic Title": "Optimization",
+        "Lessons": [
+          "Global & Local Extrema",
+          "Optimization in Context",
+          "Applied Problems"
+        ]
+      },
+      {
+        "Topic Title": "Mean Value Theorem",
+        "Lessons": [
+          "Statement & Interpretation",
+          "Applications to Functions",
+          "Connections to Motion"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Integrals",
+    "Topics": [
+      {
+        "Topic Title": "Antiderivatives & Indefinite Integrals",
+        "Lessons": [
+          "Basic Integration Rules",
+          "Substitution Method",
+          "Initial Conditions & Constants"
+        ]
+      },
+      {
+        "Topic Title": "Definite Integrals",
+        "Lessons": [
+          "Riemann Sums",
+          "Properties of Definite Integrals",
+          "Fundamental Theorem of Calculus"
+        ]
+      },
+      {
+        "Topic Title": "Applications of Integrals",
+        "Lessons": [
+          "Area Between Curves",
+          "Accumulated Change Problems",
+          "Average Value of a Function"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Differential Equations & Modeling",
+    "Topics": [
+      {
+        "Topic Title": "Basic Differential Equations",
+        "Lessons": [
+          "Separable Equations",
+          "Slope Fields",
+          "Exponential Growth & Decay"
+        ]
+      },
+      {
+        "Topic Title": "Modeling with Calculus",
+        "Lessons": [
+          "Motion Problems",
+          "Population Models",
+          "Applied Contexts"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Advanced Integration Techniques",
+    "Topics": [
+      {
+        "Topic Title": "Integration by Substitution",
+        "Lessons": [
+          "u-Substitution",
+          "Applications to Area & Volume",
+          "Worked Examples"
+        ]
+      },
+      {
+        "Topic Title": "Volume Applications",
+        "Lessons": [
+          "Disk Method",
+          "Washer Method",
+          "Cylindrical Shells (Intro)"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Review & AP Exam Preparation",
+    "Topics": [
+      {
+        "Topic Title": "Comprehensive Review",
+        "Lessons": [
+          "Limits, Derivatives, Integrals",
+          "Problem Solving Strategies",
+          "AP Multiple Choice & Free Response Tips"
+        ]
+      },
+      {
+        "Topic Title": "Practice & Assessment",
+        "Lessons": [
+          "Full-Length Practice Exams",
+          "Timed Quizzes",
+          "Error Analysis & Review"
+        ]
+      }
+    ]
+  }
+}

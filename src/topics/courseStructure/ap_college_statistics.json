@@ -1,0 +1,221 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations of Statistics",
+    "Topics": [
+      {
+        "Topic Title": "Introduction to Statistics",
+        "Lessons": [
+          "What is Statistics?",
+          "Types of Data: Qualitative & Quantitative",
+          "Levels of Measurement"
+        ]
+      },
+      {
+        "Topic Title": "Data Collection & Sampling",
+        "Lessons": [
+          "Sampling Methods",
+          "Experimental vs Observational Studies",
+          "Bias & Sources of Error"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Descriptive Statistics",
+    "Topics": [
+      {
+        "Topic Title": "Organizing Data",
+        "Lessons": [
+          "Frequency Tables & Histograms",
+          "Stem-and-Leaf Plots",
+          "Boxplots & Scatterplots"
+        ]
+      },
+      {
+        "Topic Title": "Measures of Center & Spread",
+        "Lessons": [
+          "Mean, Median, Mode",
+          "Range, Variance, Standard Deviation",
+          "Interquartile Range & Outliers"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Probability",
+    "Topics": [
+      {
+        "Topic Title": "Basic Probability Concepts",
+        "Lessons": [
+          "Probability Rules",
+          "Complement, Union, Intersection",
+          "Conditional Probability & Independence"
+        ]
+      },
+      {
+        "Topic Title": "Discrete & Continuous Probability",
+        "Lessons": [
+          "Discrete Random Variables",
+          "Probability Distributions",
+          "Expected Value & Standard Deviation"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Discrete Probability Distributions",
+    "Topics": [
+      {
+        "Topic Title": "Binomial Distribution",
+        "Lessons": [
+          "Definition & Formula",
+          "Mean & Standard Deviation",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Poisson Distribution",
+        "Lessons": [
+          "Definition & Formula",
+          "Mean & Standard Deviation",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Continuous Probability Distributions",
+    "Topics": [
+      {
+        "Topic Title": "Normal Distribution",
+        "Lessons": [
+          "Standard Normal & Z-Scores",
+          "Empirical Rule",
+          "Applications & Finding Probabilities"
+        ]
+      },
+      {
+        "Topic Title": "Other Continuous Distributions",
+        "Lessons": [
+          "Uniform Distribution",
+          "Exponential Distribution",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Sampling Distributions & Central Limit Theorem",
+    "Topics": [
+      {
+        "Topic Title": "Sampling Distributions",
+        "Lessons": [
+          "Sample Mean & Sample Proportion",
+          "Distribution of Sample Means",
+          "Standard Error"
+        ]
+      },
+      {
+        "Topic Title": "Central Limit Theorem",
+        "Lessons": [
+          "Statement & Implications",
+          "Applications to Confidence Intervals",
+          "Approximations Using CLT"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Estimation & Confidence Intervals",
+    "Topics": [
+      {
+        "Topic Title": "Point & Interval Estimation",
+        "Lessons": [
+          "Point Estimates",
+          "Confidence Intervals for Means",
+          "Confidence Intervals for Proportions"
+        ]
+      },
+      {
+        "Topic Title": "Sample Size Determination",
+        "Lessons": [
+          "Determining Sample Size for Mean",
+          "Determining Sample Size for Proportion",
+          "Margin of Error"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Hypothesis Testing",
+    "Topics": [
+      {
+        "Topic Title": "Basics of Hypothesis Testing",
+        "Lessons": [
+          "Null & Alternative Hypotheses",
+          "Type I & Type II Errors",
+          "Significance Level & p-Value"
+        ]
+      },
+      {
+        "Topic Title": "Tests for Means & Proportions",
+        "Lessons": [
+          "One-Sample t-Test & z-Test",
+          "Two-Sample t-Test & z-Test",
+          "Paired t-Test"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "Correlation & Regression",
+    "Topics": [
+      {
+        "Topic Title": "Correlation",
+        "Lessons": [
+          "Scatterplots & Correlation Coefficient",
+          "Interpretation of Correlation",
+          "Limitations & Causation"
+        ]
+      },
+      {
+        "Topic Title": "Linear Regression",
+        "Lessons": [
+          "Least Squares Regression Line",
+          "Slope & Intercept Interpretation",
+          "Residuals & Coefficient of Determination"
+        ]
+      }
+    ]
+  },
+
+  "Unit 10": {
+    "Unit Title": "Chi-Square & Inference for Categorical Data",
+    "Topics": [
+      {
+        "Topic Title": "Chi-Square Tests",
+        "Lessons": [
+          "Goodness-of-Fit Test",
+          "Test for Independence",
+          "Test for Homogeneity"
+        ]
+      },
+      {
+        "Topic Title": "Applications",
+        "Lessons": [
+          "Analyzing Categorical Data",
+          "Expected Counts",
+          "Interpreting Results"
+        ]
+      }
+    ]
+  }
+}

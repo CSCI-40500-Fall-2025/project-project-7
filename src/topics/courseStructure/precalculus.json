@@ -1,0 +1,199 @@
+{
+  "Unit 1": {
+    "Unit Title": "Functions & Graphs",
+    "Topics": [
+      {
+        "Topic Title": "Foundations of Functions",
+        "Lessons": [
+          "Definition, Domain, & Range",
+          "Function Notation",
+          "Evaluating Functions"
+        ]
+      },
+      {
+        "Topic Title": "Types of Functions",
+        "Lessons": [
+          "Linear & Quadratic Functions",
+          "Polynomial Functions",
+          "Rational Functions & Graphs"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Polynomial & Rational Functions",
+    "Topics": [
+      {
+        "Topic Title": "Polynomial Functions",
+        "Lessons": [
+          "Degree & End Behavior",
+          "Zeros & Multiplicity",
+          "Graphing Polynomials"
+        ]
+      },
+      {
+        "Topic Title": "Rational Functions",
+        "Lessons": [
+          "Asymptotes & Domain",
+          "Graphing Rational Functions",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Exponential & Logarithmic Functions",
+    "Topics": [
+      {
+        "Topic Title": "Exponential Functions",
+        "Lessons": [
+          "Growth & Decay Models",
+          "Graphing Exponentials",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Logarithmic Functions",
+        "Lessons": [
+          "Definition & Properties of Logs",
+          "Solving Logarithmic Equations",
+          "Applications & Modeling"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Trigonometry Review",
+    "Topics": [
+      {
+        "Topic Title": "Trig Functions & Graphs",
+        "Lessons": [
+          "Sine, Cosine, Tangent Functions",
+          "Amplitude, Period, Phase Shift",
+          "Reciprocal Functions"
+        ]
+      },
+      {
+        "Topic Title": "Trigonometric Identities",
+        "Lessons": [
+          "Pythagorean Identities",
+          "Sum & Difference Formulas",
+          "Double Angle & Half Angle Formulas"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Advanced Trigonometry",
+    "Topics": [
+      {
+        "Topic Title": "Inverse Trig Functions",
+        "Lessons": [
+          "Arcsin, Arccos, Arctan",
+          "Solving Trig Equations",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Law of Sines & Cosines",
+        "Lessons": [
+          "Solving Oblique Triangles",
+          "Ambiguous Case",
+          "Applications in Real Life"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Vectors & Parametric Equations",
+    "Topics": [
+      {
+        "Topic Title": "Vectors",
+        "Lessons": [
+          "Vector Operations",
+          "Magnitude & Direction",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Parametric Equations",
+        "Lessons": [
+          "Graphing Parametric Equations",
+          "Converting Between Parametric & Cartesian",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Polar Coordinates & Complex Numbers",
+    "Topics": [
+      {
+        "Topic Title": "Polar Coordinates",
+        "Lessons": [
+          "Plotting Points in Polar Form",
+          "Converting Between Polar & Rectangular",
+          "Graphing Polar Equations"
+        ]
+      },
+      {
+        "Topic Title": "Complex Numbers in Trig Form",
+        "Lessons": [
+          "Multiplication & Division Using Polar Form",
+          "De Moivre’s Theorem",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Sequences, Series & Probability",
+    "Topics": [
+      {
+        "Topic Title": "Sequences",
+        "Lessons": [
+          "Arithmetic & Geometric Sequences",
+          "Recursive Formulas",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Series & Probability",
+        "Lessons": [
+          "Sum of Arithmetic & Geometric Series",
+          "Permutations & Combinations",
+          "Applications in Probability"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "Limits & Intro to Calculus",
+    "Topics": [
+      {
+        "Topic Title": "Limits",
+        "Lessons": [
+          "Concept of a Limit",
+          "One-Sided Limits",
+          "Limit Laws"
+        ]
+      },
+      {
+        "Topic Title": "Introduction to Derivatives",
+        "Lessons": [
+          "Slope of a Curve",
+          "Rate of Change",
+          "Basic Derivative Concepts"
+        ]
+      }
+    ]
+  }
+}

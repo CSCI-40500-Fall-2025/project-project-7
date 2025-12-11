@@ -1,0 +1,199 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations of Algebra",
+    "Topics": [
+      {
+        "Topic Title": "Numbers & Operations",
+        "Lessons": [
+          "Integers, Fractions, & Decimals",
+          "Order of Operations",
+          "Properties of Numbers"
+        ]
+      },
+      {
+        "Topic Title": "Expressions",
+        "Lessons": [
+          "Variables & Expressions",
+          "Simplifying Expressions",
+          "Evaluating Expressions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Equations & Inequalities",
+    "Topics": [
+      {
+        "Topic Title": "Solving Equations",
+        "Lessons": [
+          "One-Step Equations",
+          "Two-Step Equations",
+          "Multi-Step Equations"
+        ]
+      },
+      {
+        "Topic Title": "Solving Inequalities",
+        "Lessons": [
+          "One-Step Inequalities",
+          "Multi-Step Inequalities",
+          "Graphing Solutions on a Number Line"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Functions & Relationships",
+    "Topics": [
+      {
+        "Topic Title": "Introduction to Functions",
+        "Lessons": [
+          "Definition of a Function",
+          "Domain & Range",
+          "Function Notation"
+        ]
+      },
+      {
+        "Topic Title": "Linear Functions",
+        "Lessons": [
+          "Slope & Rate of Change",
+          "Graphing Linear Functions",
+          "Writing Linear Equations"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Systems of Equations & Inequalities",
+    "Topics": [
+      {
+        "Topic Title": "Solving Systems of Equations",
+        "Lessons": [
+          "Graphing Method",
+          "Substitution Method",
+          "Elimination Method"
+        ]
+      },
+      {
+        "Topic Title": "Solving Systems of Inequalities",
+        "Lessons": [
+          "Graphical Method",
+          "Shading & Feasible Region",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Polynomials & Factoring",
+    "Topics": [
+      {
+        "Topic Title": "Polynomials",
+        "Lessons": [
+          "Adding & Subtracting Polynomials",
+          "Multiplying Polynomials",
+          "Special Products"
+        ]
+      },
+      {
+        "Topic Title": "Factoring",
+        "Lessons": [
+          "Greatest Common Factor",
+          "Factoring Trinomials",
+          "Difference of Squares"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Quadratic Functions",
+    "Topics": [
+      {
+        "Topic Title": "Graphing Quadratics",
+        "Lessons": [
+          "Parabolas & Vertex Form",
+          "Axis of Symmetry",
+          "Graphing from Standard Form"
+        ]
+      },
+      {
+        "Topic Title": "Solving Quadratics",
+        "Lessons": [
+          "Factoring Method",
+          "Quadratic Formula",
+          "Completing the Square"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Rational Expressions & Equations",
+    "Topics": [
+      {
+        "Topic Title": "Rational Expressions",
+        "Lessons": [
+          "Simplifying Rational Expressions",
+          "Multiplication & Division",
+          "Addition & Subtraction"
+        ]
+      },
+      {
+        "Topic Title": "Rational Equations",
+        "Lessons": [
+          "Solving Rational Equations",
+          "Applications",
+          "Checking for Extraneous Solutions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Radicals & Exponents",
+    "Topics": [
+      {
+        "Topic Title": "Exponents",
+        "Lessons": [
+          "Laws of Exponents",
+          "Negative & Zero Exponents",
+          "Scientific Notation"
+        ]
+      },
+      {
+        "Topic Title": "Radicals",
+        "Lessons": [
+          "Simplifying Radicals",
+          "Operations with Radicals",
+          "Solving Radical Equations"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "Data Analysis & Probability",
+    "Topics": [
+      {
+        "Topic Title": "Statistics",
+        "Lessons": [
+          "Mean, Median, Mode",
+          "Range & Standard Deviation",
+          "Interpreting Graphs"
+        ]
+      },
+      {
+        "Topic Title": "Probability",
+        "Lessons": [
+          "Simple Probability",
+          "Compound Probability",
+          "Independent & Dependent Events"
+        ]
+      }
+    ]
+  }
+}

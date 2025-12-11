@@ -1,0 +1,177 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations of Linear Algebra",
+    "Topics": [
+      {
+        "Topic Title": "Vectors & Vector Spaces",
+        "Lessons": [
+          "Definition of Vectors",
+          "Vector Operations (Addition, Scalar Multiplication)",
+          "Vector Spaces & Subspaces"
+        ]
+      },
+      {
+        "Topic Title": "Linear Combinations & Span",
+        "Lessons": [
+          "Linear Combinations of Vectors",
+          "Span of a Set of Vectors",
+          "Linear Independence"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Matrices & Matrix Operations",
+    "Topics": [
+      {
+        "Topic Title": "Introduction to Matrices",
+        "Lessons": [
+          "Matrix Notation & Types",
+          "Matrix Addition & Scalar Multiplication",
+          "Matrix Multiplication"
+        ]
+      },
+      {
+        "Topic Title": "Special Matrices & Properties",
+        "Lessons": [
+          "Identity & Zero Matrices",
+          "Inverse Matrices",
+          "Transpose of a Matrix"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Determinants",
+    "Topics": [
+      {
+        "Topic Title": "Determinant Basics",
+        "Lessons": [
+          "Determinants of 2x2 & 3x3 Matrices",
+          "Properties of Determinants",
+          "Cofactor Expansion"
+        ]
+      },
+      {
+        "Topic Title": "Applications of Determinants",
+        "Lessons": [
+          "Cramer's Rule",
+          "Area & Volume with Determinants",
+          "Invertibility & Determinants"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Solving Linear Systems",
+    "Topics": [
+      {
+        "Topic Title": "Gaussian Elimination",
+        "Lessons": [
+          "Row Reduction & Echelon Forms",
+          "Solving Systems Using Gaussian Elimination",
+          "Applications"
+        ]
+      },
+      {
+        "Topic Title": "Matrix Methods",
+        "Lessons": [
+          "Solving Systems with Inverse Matrices",
+          "LU Decomposition (Intro)",
+          "Real-World Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Vector Spaces & Subspaces",
+    "Topics": [
+      {
+        "Topic Title": "Subspaces & Basis",
+        "Lessons": [
+          "Column Space & Null Space",
+          "Basis & Dimension",
+          "Row Space"
+        ]
+      },
+      {
+        "Topic Title": "Linear Transformations",
+        "Lessons": [
+          "Definition & Examples",
+          "Matrix Representation of Linear Transformations",
+          "Kernel & Range"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Eigenvalues & Eigenvectors",
+    "Topics": [
+      {
+        "Topic Title": "Introduction",
+        "Lessons": [
+          "Definition of Eigenvalues & Eigenvectors",
+          "Characteristic Equation",
+          "Diagonalization"
+        ]
+      },
+      {
+        "Topic Title": "Applications",
+        "Lessons": [
+          "Power of a Matrix",
+          "Markov Chains",
+          "Differential Equations Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Orthogonality & Inner Product Spaces",
+    "Topics": [
+      {
+        "Topic Title": "Inner Product Spaces",
+        "Lessons": [
+          "Dot Product & Inner Product",
+          "Length & Orthogonality",
+          "Orthogonal Projections"
+        ]
+      },
+      {
+        "Topic Title": "Orthogonalization",
+        "Lessons": [
+          "Gram-Schmidt Process",
+          "Orthogonal Matrices",
+          "Applications"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Advanced Topics & Applications",
+    "Topics": [
+      {
+        "Topic Title": "Matrix Decompositions",
+        "Lessons": [
+          "LU Decomposition",
+          "QR Decomposition",
+          "Singular Value Decomposition (Intro)"
+        ]
+      },
+      {
+        "Topic Title": "Applications of Linear Algebra",
+        "Lessons": [
+          "Computer Graphics",
+          "Data Science & Machine Learning",
+          "Engineering & Physics Applications"
+        ]
+      }
+    ]
+  }
+}

@@ -1,35 +1,94 @@
 {
     "AP/College Calculus AB": [
-        "Limits and continuity",
-        "Differentiation: definition and basic derivative rules",
-        "Differentiation: composite, implicit, and inverse functions",
-        "Contextual applications of differentiation",
-        "Applying derivatives to analyze functions",
-        "Integration and accumation of change",
-        "Differential equations",
-        "Applications of integration"
+        "Limits & Continuity",
+        "Derivatives",
+        "Applications of Derivatives",
+        "Integrals",
+        "Differential Equations & Modeling",
+        "Advanced Integration Techniques",
+        "Review & AP Exam Preparation"
     ],
+    
     "Algebra 1": [
-        "Algebra foundations",
-        "Solving equations and inequalities",
-        "Working with units",
-        "Linear equations and graphs",
-        "Forms of linear equations",
-        "Systems of equations",
-        "Inequalities (systems and graphs)",
-        "Functions",
-        "Sequences",
-        "Absolute value and piecewise functions",
-        "Exponents and radicals",
-        "Exponential growth and decay",
-        "Quadratics: Multiplying and factoring",
-        "Quadratics functions and equations",
-        "Irrational numbers"
+        "Foundations of Algebra",
+        "Equations & Inequalities",
+        "Functions & Relationships",
+        "Systems of Equations & Inequalities",
+        "Polynomials & Factoring",
+        "Quadratic Functions",
+        "Rational Expressions & Equations",
+        "Radicals & Exponents",
+        "Data Analysis & Probability"
     ],
-    "Geometry": [], 
-    "Algebra 2": [],
-    "Trignometry": [],
-    "Precalculus": [],
-    "Linear algebra": [],
-    "AP/College Statistics": []
+
+    "Geometry": [
+        "Foundations of Geometry",
+        "Parallel & Perpendicular Lines",
+        "Triangles",
+        "Quadrilaterals & Polygons",
+        "Similarity & Right Triangles",
+        "Circles",
+        "Area, Surface Area & Volume",
+        "Coordinate Geometry & Transformations"
+    ], 
+
+    "Algebra 2": [
+        "Foundations & Review",
+        "Polynomials & Factoring",
+        "Quadratic Functions & Equations",
+        "Rational Expressions & Equations",
+        "Radicals & Complex Numbers",
+        "Exponential & Logarithmic Functions",
+        "Sequences, Series & Probability",
+        "Functions & Transformations",
+        "Trigonometry & Unit Circle",
+        "Review & Advanced Applications"
+    ],
+
+    "Trignometry": [
+        "Foundations & Angles",
+        "Unit Circle & Trig Functions",
+        "Graphing Trigonometric Functions",
+        "Trigonometric Identities & Equations",
+        "Inverse Trigonometric Functions",
+        "Law of Sines & Cosines",
+        "Trigonometric Applications",
+        "Polar Coordinates & Complex Numbers"
+    ],
+
+    "Precalculus": [
+        "Functions & Graphs",
+        "Polynomial & Rational Functions",
+        "Exponential & Logarithmic Functions",
+        "Trigonometry Review",
+        "Advanced Trigonometry",
+        "Vectors & Parametric Equations",
+        "Polar Coordinates & Complex Numbers",
+        "Sequences, Series & Probability",
+        "Limits & Intro to Calculus"
+    ],
+
+    "Linear algebra": [
+        "Foundations of Linear Algebra",
+        "Matrices & Matrix Operations",
+        "Determinants",
+        "Solving Linear Systems",
+        "Vector Spaces & Subspaces",
+        "Eigenvalues & Eigenvectors",
+        "Orthogonality & Inner Product Spaces",
+        "Advanced Topics & Applications"
+    ],
+
+    "AP/College Statistics": [
+        "Foundations of Statistics",
+        "Descriptive Statistics",
+        "Probability",
+        "Discrete Probability Distributions",
+        "Continuous Probability Distributions",
+        "Sampling Distributions & Central Limit Theorem",
+        "Estimation & Confidence Intervals",
+        "Hypothesis Testing",
+        "Correlation & Regression",
+        "Chi-Square & Inference for Categorical Data"
+    ]
 }
