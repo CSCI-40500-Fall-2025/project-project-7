@@ -1,0 +1,406 @@
+{
+  "Unit 1": {
+    "Unit Title": "Pre-Columbian Societies & Early Colonization",
+    "Topics": [
+      {
+        "Topic Title": "Native American Societies",
+        "Lessons": [
+          "Regional Cultural Groups",
+          "Trade, Agriculture, and Social Structures",
+          "Environmental Adaptation"
+        ]
+      },
+      {
+        "Topic Title": "European Exploration",
+        "Lessons": [
+          "Motives for Exploration",
+          "Spanish, French, and English Approaches",
+          "Columbian Exchange"
+        ]
+      },
+      {
+        "Topic Title": "Early Colonization",
+        "Lessons": [
+          "Spanish Colonies",
+          "French Colonies",
+          "English Settlement Attempts"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Colonial America & the Road to Revolution",
+    "Topics": [
+      {
+        "Topic Title": "English Colonies",
+        "Lessons": [
+          "New England Colonies",
+          "Middle Colonies",
+          "Southern Colonies"
+        ]
+      },
+      {
+        "Topic Title": "Colonial Society",
+        "Lessons": [
+          "Religion in the Colonies",
+          "Economics & Labor Systems",
+          "Enlightenment & Great Awakening"
+        ]
+      },
+      {
+        "Topic Title": "Steps Toward Revolution",
+        "Lessons": [
+          "British Policies After 1763",
+          "Colonial Resistance",
+          "Growing Tensions & Outbreak of War"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "The American Revolution & the Early Republic",
+    "Topics": [
+      {
+        "Topic Title": "Revolutionary Era",
+        "Lessons": [
+          "Declaration of Independence",
+          "Major Battles",
+          "Foreign Alliances"
+        ]
+      },
+      {
+        "Topic Title": "Forming New Governments",
+        "Lessons": [
+          "Articles of Confederation",
+          "Northwest Ordinance",
+          "Constitutional Convention (Basics)"
+        ]
+      },
+      {
+        "Topic Title": "Early Republic",
+        "Lessons": [
+          "Washington’s Presidency",
+          "Political Parties Form",
+          "Foreign Policy Challenges"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "The Constitution, Federalism, and Nation-Building",
+    "Topics": [
+      {
+        "Topic Title": "Creating the Constitution",
+        "Lessons": [
+          "Compromises",
+          "Ratification Debate",
+          "Bill of Rights"
+        ]
+      },
+      {
+        "Topic Title": "Federalism & Government Structure",
+        "Lessons": [
+          "Division of Powers",
+          "Checks & Balances",
+          "Supreme Court Foundations"
+        ]
+      },
+      {
+        "Topic Title": "Early National Policies",
+        "Lessons": [
+          "Hamilton vs Jefferson",
+          "Expansion & Foreign Challenges",
+          "Marshall Court"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "The Market Revolution & Jacksonian Democracy",
+    "Topics": [
+      {
+        "Topic Title": "Economic Transformation",
+        "Lessons": [
+          "Industrialization",
+          "Transportation Revolution",
+          "Regional Specialization"
+        ]
+      },
+      {
+        "Topic Title": "Jacksonian Era",
+        "Lessons": [
+          "Expansion of Democracy",
+          "Jackson’s Policies",
+          "Native American Removal"
+        ]
+      },
+      {
+        "Topic Title": "Reform Movements",
+        "Lessons": [
+          "Second Great Awakening",
+          "Abolitionism",
+          "Women’s Rights Movement"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Sectionalism, Expansion, and the Civil War",
+    "Topics": [
+      {
+        "Topic Title": "Westward Expansion",
+        "Lessons": [
+          "Manifest Destiny",
+          "Texas & the Mexican War",
+          "Oregon & California"
+        ]
+      },
+      {
+        "Topic Title": "Growing Tensions",
+        "Lessons": [
+          "Compromises of 1820 & 1850",
+          "Kansas-Nebraska Act",
+          "Dred Scott Decision"
+        ]
+      },
+      {
+        "Topic Title": "Civil War",
+        "Lessons": [
+          "Causes of Secession",
+          "Major Battles",
+          "Emancipation Proclamation"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Reconstruction & the New South",
+    "Topics": [
+      {
+        "Topic Title": "Reconstruction Plans",
+        "Lessons": [
+          "Lincoln & Johnson Plans",
+          "Radical Reconstruction",
+          "Reconstruction Amendments"
+        ]
+      },
+      {
+        "Topic Title": "Reconstruction Challenges",
+        "Lessons": [
+          "Freedmen’s Bureau",
+          "Black Codes & Jim Crow",
+          "End of Reconstruction"
+        ]
+      },
+      {
+        "Topic Title": "New South",
+        "Lessons": [
+          "Economic Changes",
+          "Sharecropping System",
+          "Segregation Solidifies"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Industrialization, Immigration, and Urbanization",
+    "Topics": [
+      {
+        "Topic Title": "Industrial Growth",
+        "Lessons": [
+          "Rise of Big Business",
+          "Technological Innovations",
+          "Labor Conditions"
+        ]
+      },
+      {
+        "Topic Title": "Immigration",
+        "Lessons": [
+          "Old vs New Immigrants",
+          "Ellis & Angel Island",
+          "Nativism"
+        ]
+      },
+      {
+        "Topic Title": "Urban America",
+        "Lessons": [
+          "City Growth",
+          "Political Machines",
+          "Social Issues & Reformers"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "Progressivism & American Imperialism",
+    "Topics": [
+      {
+        "Topic Title": "Progressive Era",
+        "Lessons": [
+          "Goals of Progressivism",
+          "Regulation & Reforms",
+          "Women’s Suffrage"
+        ]
+      },
+      {
+        "Topic Title": "Imperialism",
+        "Lessons": [
+          "Motives for Expansion",
+          "Spanish-American War",
+          "Philippines & Global Presence"
+        ]
+      }
+    ]
+  },
+
+  "Unit 10": {
+    "Unit Title": "World War I & the Interwar Period",
+    "Topics": [
+      {
+        "Topic Title": "World War I",
+        "Lessons": [
+          "Causes of U.S. Entry",
+          "Warfare & Homefront",
+          "Treaty of Versailles"
+        ]
+      },
+      {
+        "Topic Title": "1920s America",
+        "Lessons": [
+          "Cultural Changes",
+          "Economic Boom",
+          "Social Conflicts"
+        ]
+      },
+      {
+        "Topic Title": "Great Depression",
+        "Lessons": [
+          "Causes",
+          "Hoover & Early Responses",
+          "Impact on Society"
+        ]
+      }
+    ]
+  },
+
+  "Unit 11": {
+    "Unit Title": "The New Deal & World War II",
+    "Topics": [
+      {
+        "Topic Title": "New Deal Policies",
+        "Lessons": [
+          "Relief, Recovery, Reform",
+          "Major Programs",
+          "Successes & Criticisms"
+        ]
+      },
+      {
+        "Topic Title": "World War II",
+        "Lessons": [
+          "Rise of Totalitarianism",
+          "U.S. Entry into WWII",
+          "The Homefront",
+          "Holocaust Overview"
+        ]
+      }
+    ]
+  },
+
+  "Unit 12": {
+    "Unit Title": "Cold War America",
+    "Topics": [
+      {
+        "Topic Title": "Origins of the Cold War",
+        "Lessons": [
+          "Postwar Tensions",
+          "Containment Policy",
+          "Early Conflicts"
+        ]
+      },
+      {
+        "Topic Title": "Cold War Society",
+        "Lessons": [
+          "Red Scare",
+          "Suburbanization",
+          "Culture of the 1950s"
+        ]
+      },
+      {
+        "Topic Title": "Late Cold War",
+        "Lessons": [
+          "Vietnam War",
+          "Détente",
+          "End of the Cold War"
+        ]
+      }
+    ]
+  },
+
+  "Unit 13": {
+    "Unit Title": "Civil Rights, Social Movements, and Vietnam",
+    "Topics": [
+      {
+        "Topic Title": "Civil Rights Movement",
+        "Lessons": [
+          "Brown v. Board",
+          "Nonviolent Protest",
+          "Legislation & Impact"
+        ]
+      },
+      {
+        "Topic Title": "Other Movements",
+        "Lessons": [
+          "Women’s Movement",
+          "Latino & Native Movements",
+          "Environmental Movement"
+        ]
+      },
+      {
+        "Topic Title": "Vietnam Era",
+        "Lessons": [
+          "Escalation",
+          "Protest Movements",
+          "War’s Aftermath"
+        ]
+      }
+    ]
+  },
+
+  "Unit 14": {
+    "Unit Title": "Modern America: From the 1970s to the Present",
+    "Topics": [
+      {
+        "Topic Title": "Political Changes",
+        "Lessons": [
+          "Nixon & Watergate",
+          "Reagan Revolution",
+          "End of the Cold War"
+        ]
+      },
+      {
+        "Topic Title": "Economic & Social Shifts",
+        "Lessons": [
+          "Globalization",
+          "Technological Change",
+          "Changing Demographics"
+        ]
+      },
+      {
+        "Topic Title": "21st Century America",
+        "Lessons": [
+          "Terrorism & Foreign Policy",
+          "Economic Trends",
+          "Modern Social Issues"
+        ]
+      }
+    ]
+  }
+}

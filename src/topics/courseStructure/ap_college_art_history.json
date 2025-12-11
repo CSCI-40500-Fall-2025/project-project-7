@@ -1,0 +1,209 @@
+{
+  "Unit 1": {
+    "Unit Title": "Global Prehistoric Art",
+    "Topics": [
+      {
+        "Topic Title": "Early Human Expression",
+        "Lessons": [
+          "Paleolithic Cave Art",
+          "Neolithic Revolution & Megaliths",
+          "Purpose & Symbolism"
+        ]
+      },
+      {
+        "Topic Title": "Prehistoric Architecture",
+        "Lessons": [
+          "Stonehenge",
+          "Megalithic Structures Worldwide",
+          "Function and Community Role"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Ancient Mediterranean Art",
+    "Topics": [
+      {
+        "Topic Title": "Mesopotamia",
+        "Lessons": [
+          "Ziggurats & Palaces",
+          "Sculpture & Relief",
+          "Cuneiform & Symbolism"
+        ]
+      },
+      {
+        "Topic Title": "Egyptian Art",
+        "Lessons": [
+          "Funerary Art & Tombs",
+          "Temples & Pyramids",
+          "Pharaohs & Iconography"
+        ]
+      },
+      {
+        "Topic Title": "Greek & Roman Art",
+        "Lessons": [
+          "Greek Architecture & Sculpture",
+          "Roman Architecture & Engineering",
+          "Roman Painting & Mosaics"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Early Asian & African Art",
+    "Topics": [
+      {
+        "Topic Title": "South & East Asia",
+        "Lessons": [
+          "Indus Valley & Buddhist Art",
+          "Chinese Dynasties: Shang to Tang",
+          "Japanese Art: Heian & Kamakura Periods"
+        ]
+      },
+      {
+        "Topic Title": "African & Pre-Columbian Art",
+        "Lessons": [
+          "Nok & Ife Sculptures",
+          "Benin Bronzes",
+          "Maya, Aztec, & Inca Art"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Medieval Art",
+    "Topics": [
+      {
+        "Topic Title": "Early Christian & Byzantine",
+        "Lessons": [
+          "Church Architecture",
+          "Mosaics & Iconography",
+          "Illuminated Manuscripts"
+        ]
+      },
+      {
+        "Topic Title": "Islamic & Romanesque Art",
+        "Lessons": [
+          "Mosque Architecture",
+          "Calligraphy & Ornamentation",
+          "European Romanesque Style"
+        ]
+      },
+      {
+        "Topic Title": "Gothic Art",
+        "Lessons": [
+          "Cathedrals & Stained Glass",
+          "Sculpture & Iconography",
+          "Socio-Religious Context"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Renaissance & Baroque",
+    "Topics": [
+      {
+        "Topic Title": "Italian Renaissance",
+        "Lessons": [
+          "Early Renaissance Masters",
+          "High Renaissance Techniques",
+          "Humanism & Patronage"
+        ]
+      },
+      {
+        "Topic Title": "Northern Renaissance",
+        "Lessons": [
+          "Flemish & German Artists",
+          "Printmaking & Detail",
+          "Religious & Secular Themes"
+        ]
+      },
+      {
+        "Topic Title": "Baroque & Rococo",
+        "Lessons": [
+          "Dramatic Composition & Lighting",
+          "European Baroque Artists",
+          "Rococo Ornamentation"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Neoclassicism, Romanticism & Realism",
+    "Topics": [
+      {
+        "Topic Title": "Neoclassicism",
+        "Lessons": [
+          "Return to Classical Ideals",
+          "Architecture & Sculpture",
+          "Jacques-Louis David & Influence"
+        ]
+      },
+      {
+        "Topic Title": "Romanticism",
+        "Lessons": [
+          "Emotion & Nature",
+          "Dramatic Art & Literature",
+          "Turner, Géricault, Delacroix"
+        ]
+      },
+      {
+        "Topic Title": "Realism",
+        "Lessons": [
+          "Depiction of Everyday Life",
+          "Courbet & Millet",
+          "Social Commentary in Art"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Impressionism & Modernism",
+    "Topics": [
+      {
+        "Topic Title": "Impressionism & Post-Impressionism",
+        "Lessons": [
+          "Light, Color, & Brushwork",
+          "Monet, Renoir, Van Gogh",
+          "Impact on 20th Century Art"
+        ]
+      },
+      {
+        "Topic Title": "Early Modern Movements",
+        "Lessons": [
+          "Cubism & Fauvism",
+          "Expressionism & Futurism",
+          "Key Artists & Techniques"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Contemporary & Global Art",
+    "Topics": [
+      {
+        "Topic Title": "20th Century Modern Art",
+        "Lessons": [
+          "Dada & Surrealism",
+          "Abstract Expressionism",
+          "Pop Art & Conceptual Art"
+        ]
+      },
+      {
+        "Topic Title": "Global Contemporary Art",
+        "Lessons": [
+          "Non-Western Contemporary Practices",
+          "Installation & Performance Art",
+          "Digital Media & Cross-Cultural Influences"
+        ]
+      }
+    ]
+  }
+}

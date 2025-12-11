@@ -1,0 +1,207 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations of American Government",
+    "Topics": [
+      {
+        "Topic Title": "Origins of Government",
+        "Lessons": [
+          "Purpose of Government",
+          "Social Contract Theory",
+          "Types of Government"
+        ]
+      },
+      {
+        "Topic Title": "The Constitution",
+        "Lessons": [
+          "Articles of Confederation",
+          "Constitutional Convention",
+          "Principles of the Constitution"
+        ]
+      },
+      {
+        "Topic Title": "Federalism",
+        "Lessons": [
+          "Division of Powers",
+          "State vs Federal Powers",
+          "Supremacy Clause"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Political Beliefs & Behavior",
+    "Topics": [
+      {
+        "Topic Title": "Public Opinion",
+        "Lessons": [
+          "Formation of Opinions",
+          "Role of Media",
+          "Political Socialization"
+        ]
+      },
+      {
+        "Topic Title": "Political Participation",
+        "Lessons": [
+          "Voting Behavior",
+          "Elections & Campaigns",
+          "Interest Groups"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Political Parties & Elections",
+    "Topics": [
+      {
+        "Topic Title": "Political Parties",
+        "Lessons": [
+          "Party Systems in U.S. History",
+          "Functions of Parties",
+          "Party Platforms"
+        ]
+      },
+      {
+        "Topic Title": "Elections",
+        "Lessons": [
+          "Electoral College",
+          "Campaign Finance",
+          "Voting Trends"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Branches of Government: Legislative",
+    "Topics": [
+      {
+        "Topic Title": "Congress Structure & Powers",
+        "Lessons": [
+          "Bicameralism",
+          "Enumerated Powers",
+          "Legislative Process"
+        ]
+      },
+      {
+        "Topic Title": "Congress in Action",
+        "Lessons": [
+          "Committees & Leadership",
+          "Checks on Other Branches",
+          "Constituent Services"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Branches of Government: Executive",
+    "Topics": [
+      {
+        "Topic Title": "The Presidency",
+        "Lessons": [
+          "Roles of the President",
+          "Powers & Limits",
+          "Executive Orders & Agreements"
+        ]
+      },
+      {
+        "Topic Title": "Federal Bureaucracy",
+        "Lessons": [
+          "Structure & Functions",
+          "Regulations & Implementation",
+          "Accountability"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Branches of Government: Judicial",
+    "Topics": [
+      {
+        "Topic Title": "Federal Courts",
+        "Lessons": [
+          "Structure of the Judiciary",
+          "Jurisdiction & Case Types",
+          "Judicial Review"
+        ]
+      },
+      {
+        "Topic Title": "Supreme Court Cases",
+        "Lessons": [
+          "Landmark Decisions",
+          "Impact on Policy",
+          "Precedent & Interpretation"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Civil Liberties & Civil Rights",
+    "Topics": [
+      {
+        "Topic Title": "Civil Liberties",
+        "Lessons": [
+          "Bill of Rights",
+          "Freedom of Speech & Religion",
+          "Rights of the Accused"
+        ]
+      },
+      {
+        "Topic Title": "Civil Rights",
+        "Lessons": [
+          "Equal Protection",
+          "Key Movements",
+          "Recent Developments"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Policy-Making & the Political System",
+    "Topics": [
+      {
+        "Topic Title": "Policy Process",
+        "Lessons": [
+          "Agenda Setting",
+          "Policy Formulation",
+          "Implementation & Evaluation"
+        ]
+      },
+      {
+        "Topic Title": "Domestic & Foreign Policy",
+        "Lessons": [
+          "Economic Policy",
+          "Social Policy",
+          "Foreign Policy Tools"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "Political Ideologies & Contemporary Issues",
+    "Topics": [
+      {
+        "Topic Title": "Political Ideologies",
+        "Lessons": [
+          "Liberalism & Conservatism",
+          "Libertarianism & Progressivism",
+          "Role in Policy Debate"
+        ]
+      },
+      {
+        "Topic Title": "Current Issues",
+        "Lessons": [
+          "Partisan Polarization",
+          "Media & Politics",
+          "Voting Rights & Reform"
+        ]
+      }
+    ]
+  }
+}

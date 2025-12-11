@@ -1,28 +1,103 @@
 
 {
     "World History": [
-        "Beginnings - 600 BCE",
-        "600 BCE - 600 CE Second-Wave Civilizations",
-        "600 - 1450 Regional and interregational interactioins",
-        "1450 - 1750 Renaissance and Reformation",
-        "1750 - 1900 Enlightenment and Revolution",
-        "The 20th century"
+        "Foundations of Civilization",
+        "Classical Civilizations",
+        "Regional Civilizations",
+        "The Middle Ages",
+        "The Early Modern World",
+        "Revolutions",
+        "Industrialization & Change",
+        "Imperialism",
+        "World Wars",
+        "Cold War Era",
+        "Modern Global Issues",
+        "21st Century World"
     ],
+
     "AP/College US History": [
-        "Period 1: 1491 - 1607",
-        "Period 2: 1607 - 1754",
-        "Period 3: 1754 - 1800",
-        "Period 4: 1800 - 1848",
-        "Period 5: 1844 - 1877",
-        "Period 6: 1865 - 1898",
-        "Period 7: 1890 - 1945",
-        "Period 8: 1945 - 1980",
-        "Period 9: 1980 - present"
+        "Pre-Columbian Societies & Early Colonization",
+        "Colonial America & the Road to Revolution",
+        "The American Revolution & the Early Republic",
+        "The Constitution, Federalism, and Nation-Building",
+        "The Market Revolution & Jacksonian Democracy",
+        "Sectionalism, Expansion, and the Civil War",
+        "Reconstruction & the New South",
+        "Industrialization, Immigration, and Urbanization",
+        "Progressivism & American Imperialism",
+        "World War I & the Interwar Period",
+        "The New Deal & World War II",
+        "Cold War America",
+        "Civil Rights, Social Movements, and Vietnam",
+        "Modern America: From the 1970s to the Present"
     ],
-    "US History": [], 
-    "US Government and Politics": [],
-    "Art History": [],
-    "AP/College Art History": [],
-    "AP/College World History": [],
-    "World History Project - Origins to the Present": []
+    
+    "US History": [
+        "Early America & Colonization",
+        "Road to Revolution",
+        "Founding a New Nation",
+        "Expansion & Reform",
+        "Civil War & Reconstruction",
+        "Industrialization & Immigration",
+        "Progressivism & Imperialism",
+        "World War I & the Roaring Twenties",
+        "Great Depression & New Deal",
+        "World War II",
+        "Cold War America",
+        "Civil Rights & Social Change",
+        "Modern America"
+    ],
+
+    "US Government and Politics": [
+        "Foundations of American Government",
+        "Political Beliefs & Behavior",
+        "Political Parties & Elections",
+        "Branches of Government: Legislative",
+        "Branches of Government: Executive",
+        "Branches of Government: Judicial",
+        "Civil Liberties & Civil Rights",
+        "Policy-Making & the Political System",
+        "Political Ideologies & Contemporary Issues"
+    ],
+
+    "Art History": [
+        "Prehistoric & Ancient Art",
+        "Classical Art",
+        "Medieval Art",
+        "Renaissance Art",
+        "Baroque & Rococo",
+        "Neoclassicism, Romanticism & Realism",
+        "Modern Art Movements",
+        "Contemporary & Global Art"
+    ],
+
+    "AP/College Art History": [
+        "Global Prehistoric Art",
+        "Ancient Mediterranean Art",
+        "Early Asian & African Art",
+        "Medieval Art",
+        "Renaissance & Baroque",
+        "Neoclassicism, Romanticism & Realism",
+        "Impressionism & Modernism",
+        "Contemporary & Global Art"
+    ],
+    "AP/College World History": [
+        "Foundations of Human Civilization",
+        "Classical Civilizations",
+        "Post-Classical Era",
+        "Global Interactions (1450-1750)",
+        "Revolutions and State Building (1750-1900)",
+        "Global Conflict & Interwar Period (1900-1945)",
+        "Cold War & Contemporary World (1945-Present)"
+    ],
+    "World History Project - Origins to the Present": [
+        "Early Humans & Prehistory",
+        "River Valley Civilizations",
+        "Classical Civilizations",
+        "Post-Classical Era",
+        "Global Interactions (1450-1750)",
+        "Revolutions & Industrialization (1750-1900)",
+        "World Wars & Global Change (1900-1945)",
+        "Cold War & Contemporary World (1945-Present)"
+    ]
 }

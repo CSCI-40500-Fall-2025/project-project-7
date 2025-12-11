@@ -1,0 +1,303 @@
+{
+  "Unit 1": {
+    "Unit Title": "Early America & Colonization",
+    "Topics": [
+      {
+        "Topic Title": "Native American Societies",
+        "Lessons": [
+          "Major Cultural Regions",
+          "Agriculture & Trade",
+          "Environmental Adaptation"
+        ]
+      },
+      {
+        "Topic Title": "European Exploration",
+        "Lessons": [
+          "Reasons for Exploration",
+          "Spanish, French, and English Claims",
+          "Columbian Exchange"
+        ]
+      },
+      {
+        "Topic Title": "Colonial Settlements",
+        "Lessons": [
+          "New England Colonies",
+          "Middle Colonies",
+          "Southern Colonies"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Road to Revolution",
+    "Topics": [
+      {
+        "Topic Title": "British Policies",
+        "Lessons": [
+          "Taxes & Acts",
+          "Colonial Responses",
+          "Growing Tensions"
+        ]
+      },
+      {
+        "Topic Title": "Revolution Begins",
+        "Lessons": [
+          "Declaration of Independence",
+          "Key Battles",
+          "Foreign Assistance"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Founding a New Nation",
+    "Topics": [
+      {
+        "Topic Title": "A New Government",
+        "Lessons": [
+          "Articles of Confederation",
+          "Constitutional Convention",
+          "Bill of Rights"
+        ]
+      },
+      {
+        "Topic Title": "Early Presidents",
+        "Lessons": [
+          "Washington’s Presidency",
+          "Political Parties Form",
+          "Foreign Challenges"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Expansion & Reform",
+    "Topics": [
+      {
+        "Topic Title": "Westward Expansion",
+        "Lessons": [
+          "Louisiana Purchase",
+          "Manifest Destiny",
+          "Mexican-American War"
+        ]
+      },
+      {
+        "Topic Title": "Reform Movements",
+        "Lessons": [
+          "Abolition",
+          "Women’s Rights",
+          "Education & Temperance"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Civil War & Reconstruction",
+    "Topics": [
+      {
+        "Topic Title": "Causes of the Civil War",
+        "Lessons": [
+          "Slavery & Sectionalism",
+          "States’ Rights",
+          "Election of 1860"
+        ]
+      },
+      {
+        "Topic Title": "Civil War",
+        "Lessons": [
+          "Major Battles",
+          "Emancipation Proclamation",
+          "Union & Confederate Strategies"
+        ]
+      },
+      {
+        "Topic Title": "Reconstruction",
+        "Lessons": [
+          "Reconstruction Plans",
+          "Amendments",
+          "Rise of Jim Crow"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Industrialization & Immigration",
+    "Topics": [
+      {
+        "Topic Title": "Industrial Growth",
+        "Lessons": [
+          "Technological Advances",
+          "Rise of Big Business",
+          "Labor Unions"
+        ]
+      },
+      {
+        "Topic Title": "Immigration & Urbanization",
+        "Lessons": [
+          "New Immigrants",
+          "Living Conditions in Cities",
+          "Social Reformers"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Progressivism & Imperialism",
+    "Topics": [
+      {
+        "Topic Title": "Progressive Era",
+        "Lessons": [
+          "Goals of Reform",
+          "Government Regulation",
+          "Women’s Suffrage"
+        ]
+      },
+      {
+        "Topic Title": "American Imperialism",
+        "Lessons": [
+          "Reasons for Expansion",
+          "Spanish-American War",
+          "Overseas Territories"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "World War I & the Roaring Twenties",
+    "Topics": [
+      {
+        "Topic Title": "World War I",
+        "Lessons": [
+          "Causes & U.S. Entry",
+          "Warfare & Homefront",
+          "Peace Settlement"
+        ]
+      },
+      {
+        "Topic Title": "1920s America",
+        "Lessons": [
+          "Cultural Change",
+          "New Technologies",
+          "Social Tensions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "Great Depression & New Deal",
+    "Topics": [
+      {
+        "Topic Title": "Great Depression",
+        "Lessons": [
+          "Economic Causes",
+          "Impact on Americans",
+          "Hoover’s Response"
+        ]
+      },
+      {
+        "Topic Title": "New Deal",
+        "Lessons": [
+          "Major Programs",
+          "Relief, Recovery, Reform",
+          "Legacy of the New Deal"
+        ]
+      }
+    ]
+  },
+
+  "Unit 10": {
+    "Unit Title": "World War II",
+    "Topics": [
+      {
+        "Topic Title": "Causes & Early War Years",
+        "Lessons": [
+          "Rise of Dictators",
+          "U.S. Neutrality",
+          "Pearl Harbor"
+        ]
+      },
+      {
+        "Topic Title": "Wartime America",
+        "Lessons": [
+          "Homefront Efforts",
+          "Military Strategy",
+          "Holocaust (Overview)"
+        ]
+      }
+    ]
+  },
+
+  "Unit 11": {
+    "Unit Title": "Cold War America",
+    "Topics": [
+      {
+        "Topic Title": "Origins of the Cold War",
+        "Lessons": [
+          "Ideological Differences",
+          "Containment Policy",
+          "Early Conflicts"
+        ]
+      },
+      {
+        "Topic Title": "Life in the Cold War Era",
+        "Lessons": [
+          "Red Scare",
+          "1950s Culture",
+          "Space Race"
+        ]
+      }
+    ]
+  },
+
+  "Unit 12": {
+    "Unit Title": "Civil Rights & Social Change",
+    "Topics": [
+      {
+        "Topic Title": "Civil Rights Movement",
+        "Lessons": [
+          "Major Leaders",
+          "Key Events",
+          "Important Legislation"
+        ]
+      },
+      {
+        "Topic Title": "Other Social Movements",
+        "Lessons": [
+          "Women’s Rights",
+          "Environmental Movement",
+          "Latino & Native American Activism"
+        ]
+      }
+    ]
+  },
+
+  "Unit 13": {
+    "Unit Title": "Modern America",
+    "Topics": [
+      {
+        "Topic Title": "Late 20th Century",
+        "Lessons": [
+          "Vietnam War",
+          "Watergate",
+          "End of the Cold War"
+        ]
+      },
+      {
+        "Topic Title": "21st Century America",
+        "Lessons": [
+          "Technology & Globalization",
+          "Foreign Policy Challenges",
+          "Contemporary Issues"
+        ]
+      }
+    ]
+  }
+}

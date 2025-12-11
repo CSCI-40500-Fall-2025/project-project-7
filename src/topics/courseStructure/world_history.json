@@ -1,0 +1,297 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations of Civilization",
+    "Topics": [
+      {
+        "Topic Title": "Early Humans",
+        "Lessons": [
+          "Human Origins",
+          "Hunter-Gatherer Societies",
+          "Development of Agriculture"
+        ]
+      },
+      {
+        "Topic Title": "River Valley Civilizations",
+        "Lessons": [
+          "Mesopotamia",
+          "Ancient Egypt",
+          "Indus Valley"
+        ]
+      },
+      {
+        "Topic Title": "Characteristics of Civilization",
+        "Lessons": [
+          "Government & Laws",
+          "Religion & Culture",
+          "Social Structure & Economy"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Classical Civilizations",
+    "Topics": [
+      {
+        "Topic Title": "Ancient Greece",
+        "Lessons": [
+          "City-States",
+          "Athenian Democracy",
+          "Greek Culture & Achievements"
+        ]
+      },
+      {
+        "Topic Title": "Ancient Rome",
+        "Lessons": [
+          "Republic to Empire",
+          "Roman Law",
+          "Fall of Rome"
+        ]
+      },
+      {
+        "Topic Title": "Major Asian Civilizations",
+        "Lessons": [
+          "Dynastic China",
+          "Maurya & Gupta Empires",
+          "Persian Empire"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Regional Civilizations",
+    "Topics": [
+      {
+        "Topic Title": "Africa",
+        "Lessons": [
+          "Kingdoms of West Africa",
+          "Trade Networks",
+          "Cultural Developments"
+        ]
+      },
+      {
+        "Topic Title": "The Americas",
+        "Lessons": [
+          "Maya Civilization",
+          "Aztecs",
+          "Incas"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "The Middle Ages",
+    "Topics": [
+      {
+        "Topic Title": "Europe in the Middle Ages",
+        "Lessons": [
+          "Feudalism",
+          "The Church",
+          "Crusades"
+        ]
+      },
+      {
+        "Topic Title": "Islamic World",
+        "Lessons": [
+          "Foundations of Islam",
+          "Islamic Golden Age",
+          "Expansion of Islam"
+        ]
+      },
+      {
+        "Topic Title": "East Asia",
+        "Lessons": [
+          "Tang & Song China",
+          "Feudal Japan",
+          "Mongol Empire"
+        ]
+      },
+      {
+        "Topic Title": "Trade & Cultural Exchange",
+        "Lessons": [
+          "Silk Road",
+          "Indian Ocean Trade"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "The Early Modern World",
+    "Topics": [
+      {
+        "Topic Title": "Renaissance & Reformation",
+        "Lessons": [
+          "Humanism",
+          "Art & Science",
+          "Protestant Reformation"
+        ]
+      },
+      {
+        "Topic Title": "Exploration",
+        "Lessons": [
+          "European Exploration",
+          "Columbian Exchange",
+          "Impact on Indigenous Peoples"
+        ]
+      },
+      {
+        "Topic Title": "Absolutism",
+        "Lessons": [
+          "Absolute Monarchs",
+          "Rise of Nation-States"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Revolutions",
+    "Topics": [
+      {
+        "Topic Title": "Scientific & Intellectual Revolutions",
+        "Lessons": [
+          "Scientific Revolution",
+          "Enlightenment"
+        ]
+      },
+      {
+        "Topic Title": "Political Revolutions",
+        "Lessons": [
+          "American Revolution",
+          "French Revolution",
+          "Latin American Revolutions"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Industrialization & Change",
+    "Topics": [
+      {
+        "Topic Title": "Industrial Revolution",
+        "Lessons": [
+          "Causes of Industrialization",
+          "Technological Innovations",
+          "Effects on Society"
+        ]
+      },
+      {
+        "Topic Title": "Social & Economic Change",
+        "Lessons": [
+          "Urbanization",
+          "Labor Movements",
+          "New Economic Ideas"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Imperialism",
+    "Topics": [
+      {
+        "Topic Title": "Expansion of Empire",
+        "Lessons": [
+          "Motives for Imperialism",
+          "Africa & Asia",
+          "Resistance to Imperial Rule"
+        ]
+      },
+      {
+        "Topic Title": "Impact of Imperialism",
+        "Lessons": [
+          "Cultural Exchange",
+          "Economic Impact",
+          "Long-Term Consequences"
+        ]
+      }
+    ]
+  },
+
+  "Unit 9": {
+    "Unit Title": "World Wars",
+    "Topics": [
+      {
+        "Topic Title": "World War I",
+        "Lessons": [
+          "Causes of WWI",
+          "Trench Warfare",
+          "Treaty of Versailles"
+        ]
+      },
+      {
+        "Topic Title": "World War II",
+        "Lessons": [
+          "Rise of Totalitarianism",
+          "Major Battles",
+          "Holocaust"
+        ]
+      }
+    ]
+  },
+
+  "Unit 10": {
+    "Unit Title": "Cold War Era",
+    "Topics": [
+      {
+        "Topic Title": "Ideological Conflict",
+        "Lessons": [
+          "Capitalism vs Communism",
+          "Formation of Blocs"
+        ]
+      },
+      {
+        "Topic Title": "Major Events",
+        "Lessons": [
+          "Korean War",
+          "Vietnam War",
+          "Fall of the Soviet Union"
+        ]
+      }
+    ]
+  },
+
+  "Unit 11": {
+    "Unit Title": "Modern Global Issues",
+    "Topics": [
+      {
+        "Topic Title": "Globalization",
+        "Lessons": [
+          "Technology & Communication",
+          "Interconnected Economies"
+        ]
+      },
+      {
+        "Topic Title": "Contemporary Challenges",
+        "Lessons": [
+          "Human Rights",
+          "Environmental Issues"
+        ]
+      }
+    ]
+  },
+
+  "Unit 12": {
+    "Unit Title": "21st Century World",
+    "Topics": [
+      {
+        "Topic Title": "Political Developments",
+        "Lessons": [
+          "Democratization",
+          "International Organizations"
+        ]
+      },
+      {
+        "Topic Title": "Cultural & Social Trends",
+        "Lessons": [
+          "Migration & Diversity",
+          "Technological Change"
+        ]
+      }
+    ]
+  }
+}

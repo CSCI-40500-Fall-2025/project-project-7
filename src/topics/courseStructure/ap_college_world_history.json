@@ -1,0 +1,187 @@
+{
+  "Unit 1": {
+    "Unit Title": "Foundations of Human Civilization",
+    "Topics": [
+      {
+        "Topic Title": "Early Human Societies",
+        "Lessons": [
+          "Paleolithic Era",
+          "Neolithic Revolution",
+          "Early Human Migration"
+        ]
+      },
+      {
+        "Topic Title": "River Valley Civilizations",
+        "Lessons": [
+          "Mesopotamia",
+          "Ancient Egypt",
+          "Indus Valley & Shang China"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Classical Civilizations",
+    "Topics": [
+      {
+        "Topic Title": "China, India, and Persia",
+        "Lessons": [
+          "Mauryan & Gupta Empires",
+          "Qin & Han Dynasties",
+          "Persian Empire"
+        ]
+      },
+      {
+        "Topic Title": "Mediterranean Civilizations",
+        "Lessons": [
+          "Greece: City-States & Democracy",
+          "Rome: Republic & Empire",
+          "Hellenistic Influence"
+        ]
+      },
+      {
+        "Topic Title": "Americas & Africa",
+        "Lessons": [
+          "Maya & Teotihuacan",
+          "Bantu Migrations",
+          "Nok & Kush Kingdoms"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Post-Classical Era",
+    "Topics": [
+      {
+        "Topic Title": "Islamic World",
+        "Lessons": [
+          "Rise of Islam",
+          "Umayyad & Abbasid Caliphates",
+          "Trade & Cultural Achievements"
+        ]
+      },
+      {
+        "Topic Title": "Europe & Byzantium",
+        "Lessons": [
+          "Byzantine Empire",
+          "Feudalism & Manorialism",
+          "Crusades & Cultural Exchange"
+        ]
+      },
+      {
+        "Topic Title": "Asia & Africa",
+        "Lessons": [
+          "Tang & Song China",
+          "Mongol Empire",
+          "Mali, Ghana, & Swahili Coast"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Global Interactions (1450–1750)",
+    "Topics": [
+      {
+        "Topic Title": "Age of Exploration",
+        "Lessons": [
+          "European Maritime Exploration",
+          "Columbian Exchange",
+          "Colonization of Americas"
+        ]
+      },
+      {
+        "Topic Title": "Empires & Trade Networks",
+        "Lessons": [
+          "Ottoman & Mughal Empires",
+          "Silver Trade & Global Economy",
+          "African Diaspora"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Revolutions and State Building (1750–1900)",
+    "Topics": [
+      {
+        "Topic Title": "Political Revolutions",
+        "Lessons": [
+          "American Revolution",
+          "French Revolution",
+          "Haitian & Latin American Revolutions"
+        ]
+      },
+      {
+        "Topic Title": "Industrialization & Social Change",
+        "Lessons": [
+          "Industrial Revolution",
+          "Urbanization & Labor Movements",
+          "Ideologies: Liberalism, Socialism, Nationalism"
+        ]
+      },
+      {
+        "Topic Title": "Imperialism",
+        "Lessons": [
+          "European Imperial Expansion",
+          "Colonial Economies",
+          "Resistance & Reform Movements"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Global Conflict & Interwar Period (1900–1945)",
+    "Topics": [
+      {
+        "Topic Title": "World War I",
+        "Lessons": [
+          "Causes & Global Impact",
+          "Trench Warfare & Technology",
+          "Treaty of Versailles"
+        ]
+      },
+      {
+        "Topic Title": "Interwar Era",
+        "Lessons": [
+          "Rise of Totalitarian Regimes",
+          "Great Depression",
+          "Cultural & Intellectual Movements"
+        ]
+      },
+      {
+        "Topic Title": "World War II",
+        "Lessons": [
+          "Causes & Major Theaters",
+          "Holocaust",
+          "Global Impact & Postwar Changes"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Cold War & Contemporary World (1945–Present)",
+    "Topics": [
+      {
+        "Topic Title": "Cold War Conflicts",
+        "Lessons": [
+          "U.S. vs Soviet Union",
+          "Proxy Wars",
+          "Decolonization & Nationalism"
+        ]
+      },
+      {
+        "Topic Title": "Globalization & Modern Issues",
+        "Lessons": [
+          "Economic Globalization",
+          "Technological Advancements",
+          "Environmental & Social Challenges"
+        ]
+      }
+    ]
+  }
+}

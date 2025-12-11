@@ -1,0 +1,185 @@
+{
+  "Unit 1": {
+    "Unit Title": "Prehistoric & Ancient Art",
+    "Topics": [
+      {
+        "Topic Title": "Prehistoric Art",
+        "Lessons": [
+          "Cave Paintings & Petroglyphs",
+          "Stone Sculptures & Megaliths",
+          "Function and Meaning"
+        ]
+      },
+      {
+        "Topic Title": "Ancient Civilizations",
+        "Lessons": [
+          "Egyptian Art",
+          "Mesopotamian Art",
+          "Indus Valley & Early Asian Art"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "Classical Art",
+    "Topics": [
+      {
+        "Topic Title": "Greek Art",
+        "Lessons": [
+          "Architecture: Temples & Columns",
+          "Sculpture: Idealized Forms",
+          "Pottery & Decorative Arts"
+        ]
+      },
+      {
+        "Topic Title": "Roman Art",
+        "Lessons": [
+          "Architecture: Arches & Aqueducts",
+          "Sculpture: Realism & Portraiture",
+          "Mosaics & Frescoes"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Medieval Art",
+    "Topics": [
+      {
+        "Topic Title": "Early Christian & Byzantine",
+        "Lessons": [
+          "Church Architecture",
+          "Mosaics & Icons",
+          "Illuminated Manuscripts"
+        ]
+      },
+      {
+        "Topic Title": "Romanesque & Gothic",
+        "Lessons": [
+          "Cathedral Architecture",
+          "Stained Glass",
+          "Sculpture & Decorative Arts"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Renaissance Art",
+    "Topics": [
+      {
+        "Topic Title": "Early & High Renaissance",
+        "Lessons": [
+          "Italian Masters: Leonardo, Michelangelo, Raphael",
+          "Perspective & Realism",
+          "Humanism in Art"
+        ]
+      },
+      {
+        "Topic Title": "Northern Renaissance",
+        "Lessons": [
+          "Jan van Eyck & Albrecht Dürer",
+          "Printmaking & Detail",
+          "Religious Themes"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Baroque & Rococo",
+    "Topics": [
+      {
+        "Topic Title": "Baroque Art",
+        "Lessons": [
+          "Dramatic Lighting & Motion",
+          "Religious & Political Themes",
+          "Artists: Caravaggio, Rubens, Rembrandt"
+        ]
+      },
+      {
+        "Topic Title": "Rococo Art",
+        "Lessons": [
+          "Lightness & Ornamentation",
+          "French Rococo",
+          "Decorative Arts & Portraiture"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Neoclassicism, Romanticism & Realism",
+    "Topics": [
+      {
+        "Topic Title": "Neoclassicism",
+        "Lessons": [
+          "Return to Classical Ideals",
+          "Architecture & Sculpture",
+          "Artists: Jacques-Louis David"
+        ]
+      },
+      {
+        "Topic Title": "Romanticism",
+        "Lessons": [
+          "Emotion & Nature",
+          "Dramatic Composition",
+          "Artists: Delacroix, Turner"
+        ]
+      },
+      {
+        "Topic Title": "Realism",
+        "Lessons": [
+          "Everyday Life & Social Themes",
+          "Artists: Courbet, Millet",
+          "Techniques & Impact"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "Modern Art Movements",
+    "Topics": [
+      {
+        "Topic Title": "Impressionism & Post-Impressionism",
+        "Lessons": [
+          "Light & Color",
+          "Artists: Monet, Van Gogh",
+          "Influence on Later Art"
+        ]
+      },
+      {
+        "Topic Title": "20th Century Movements",
+        "Lessons": [
+          "Cubism & Fauvism",
+          "Surrealism & Expressionism",
+          "Abstract Art & Dada"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Contemporary & Global Art",
+    "Topics": [
+      {
+        "Topic Title": "Postmodern & Contemporary Art",
+        "Lessons": [
+          "Conceptual Art",
+          "Installation & Performance Art",
+          "Digital & Multimedia Art"
+        ]
+      },
+      {
+        "Topic Title": "Global Art Practices",
+        "Lessons": [
+          "Non-Western Contemporary Art",
+          "Cross-Cultural Influences",
+          "Global Exhibitions & Museums"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "Unit 1": {
+    "Unit Title": "Early Humans & Prehistory",
+    "Topics": [
+      {
+        "Topic Title": "Origins of Humanity",
+        "Lessons": [
+          "Paleolithic Era: Hunting & Gathering",
+          "Human Migration Patterns",
+          "Development of Tools & Fire"
+        ]
+      },
+      {
+        "Topic Title": "Neolithic Revolution",
+        "Lessons": [
+          "Agriculture & Domestication",
+          "Permanent Settlements",
+          "Impact on Society & Economy"
+        ]
+      }
+    ]
+  },
+
+  "Unit 2": {
+    "Unit Title": "River Valley Civilizations",
+    "Topics": [
+      {
+        "Topic Title": "Mesopotamia",
+        "Lessons": [
+          "Sumerians, Akkadians, Babylonians",
+          "Cuneiform & Writing Systems",
+          "Law Codes & Government"
+        ]
+      },
+      {
+        "Topic Title": "Egypt & the Nile",
+        "Lessons": [
+          "Pharaohs & Religion",
+          "Monumental Architecture",
+          "Social Structure & Economy"
+        ]
+      },
+      {
+        "Topic Title": "Other Early Civilizations",
+        "Lessons": [
+          "Indus Valley",
+          "Shang & Zhou China",
+          "Americas & Early African Kingdoms"
+        ]
+      }
+    ]
+  },
+
+  "Unit 3": {
+    "Unit Title": "Classical Civilizations",
+    "Topics": [
+      {
+        "Topic Title": "Mediterranean Civilizations",
+        "Lessons": [
+          "Greece: City-States & Democracy",
+          "Rome: Republic & Empire",
+          "Hellenistic Influence"
+        ]
+      },
+      {
+        "Topic Title": "Asia & India",
+        "Lessons": [
+          "Mauryan & Gupta Empires",
+          "Qin & Han Dynasties",
+          "Silk Road Trade & Cultural Exchange"
+        ]
+      },
+      {
+        "Topic Title": "Americas & Africa",
+        "Lessons": [
+          "Maya Civilization",
+          "Bantu Migrations",
+          "Nok & Kush Cultures"
+        ]
+      }
+    ]
+  },
+
+  "Unit 4": {
+    "Unit Title": "Post-Classical Era",
+    "Topics": [
+      {
+        "Topic Title": "Islamic Civilizations",
+        "Lessons": [
+          "Rise of Islam",
+          "Umayyad & Abbasid Caliphates",
+          "Trade, Scholarship, & Culture"
+        ]
+      },
+      {
+        "Topic Title": "Europe & Byzantium",
+        "Lessons": [
+          "Byzantine Empire",
+          "Feudalism & Medieval Life",
+          "Crusades & Cultural Exchange"
+        ]
+      },
+      {
+        "Topic Title": "Asia & Africa",
+        "Lessons": [
+          "Tang & Song China",
+          "Mongol Empire",
+          "Mali, Ghana, & Swahili Coast"
+        ]
+      }
+    ]
+  },
+
+  "Unit 5": {
+    "Unit Title": "Global Interactions (1450–1750)",
+    "Topics": [
+      {
+        "Topic Title": "Exploration & Trade",
+        "Lessons": [
+          "European Maritime Exploration",
+          "Columbian Exchange",
+          "Global Trade Networks"
+        ]
+      },
+      {
+        "Topic Title": "Empires & Colonization",
+        "Lessons": [
+          "Ottoman, Mughal, & Qing Empires",
+          "Colonization of Americas",
+          "African Diaspora & Slave Trade"
+        ]
+      }
+    ]
+  },
+
+  "Unit 6": {
+    "Unit Title": "Revolutions & Industrialization (1750–1900)",
+    "Topics": [
+      {
+        "Topic Title": "Political Revolutions",
+        "Lessons": [
+          "American & French Revolutions",
+          "Haitian & Latin American Revolutions",
+          "Impact on Global Politics"
+        ]
+      },
+      {
+        "Topic Title": "Industrial Revolution & Society",
+        "Lessons": [
+          "Technological Advances",
+          "Urbanization & Labor",
+          "Social Ideologies: Liberalism, Socialism, Nationalism"
+        ]
+      },
+      {
+        "Topic Title": "Imperialism",
+        "Lessons": [
+          "European Colonization in Africa & Asia",
+          "Economic & Cultural Impacts",
+          "Resistance Movements"
+        ]
+      }
+    ]
+  },
+
+  "Unit 7": {
+    "Unit Title": "World Wars & Global Change (1900–1945)",
+    "Topics": [
+      {
+        "Topic Title": "World War I",
+        "Lessons": [
+          "Causes & Global Effects",
+          "Trench Warfare & Technology",
+          "Treaty of Versailles"
+        ]
+      },
+      {
+        "Topic Title": "Interwar Period",
+        "Lessons": [
+          "Rise of Totalitarianism",
+          "Great Depression",
+          "Cultural & Intellectual Movements"
+        ]
+      },
+      {
+        "Topic Title": "World War II",
+        "Lessons": [
+          "Causes & Major Theaters",
+          "Holocaust & Atrocities",
+          "Global Outcomes"
+        ]
+      }
+    ]
+  },
+
+  "Unit 8": {
+    "Unit Title": "Cold War & Contemporary World (1945–Present)",
+    "Topics": [
+      {
+        "Topic Title": "Cold War Era",
+        "Lessons": [
+          "U.S. vs USSR Rivalry",
+          "Proxy Wars & Decolonization",
+          "Nuclear Arms & Diplomacy"
+        ]
+      },
+      {
+        "Topic Title": "Globalization & Modern Issues",
+        "Lessons": [
+          "Economic Globalization",
+          "Technological & Cultural Exchange",
+          "Environmental & Social Challenges"
+        ]
+      }
+    ]
+  }
+}
