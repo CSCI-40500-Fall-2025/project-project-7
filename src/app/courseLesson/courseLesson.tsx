@@ -157,7 +157,9 @@ function UnitDetail(selectedUnit: UnitDetailProp): React.JSX.Element {
 
         if (data != null) {
             console.log(data);
-            localStorage.setItem("questions", JSON.stringify(data));
+
+            const payload = {unit, topic, lesson, questions: data}
+            localStorage.setItem("payload", JSON.stringify(payload));
             window.location.href = "/courseLesson/questions";
         }
     }
